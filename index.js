@@ -25,9 +25,9 @@ Metalsmith(__dirname)
       'assets/css/settings/variables.css',
       'assets/css/settings/base.css',
       'assets/css/settings/responsive.css',
-      'assets/css/objects/**/*.css',
-      'assets/css/components/**/**/*.css',
-      'assets/css/utilities/*.css',
+      'assets/modules/objects/**/*.css',
+      'assets/modules/components/**/**/*.css',
+      'assets/modules/utilities/**/**/*.css',
       'assets/css/shame.css'
     ],
     output: 'assets/styles.css'
