@@ -2,7 +2,9 @@
 
 Modular CSS starter kit using Metalsmith static site generator.
 
-    $ make build
+    $ npm run dev
+
+Now with [nodemon](https://www.npmjs.com/package/nodemon) to watch for file changes and [browser-sync](https://www.npmjs.com/package/browser-sync) to automatically preview changes in browser.
 
 ## Organisation of CSS
 

@@ -3,22 +3,28 @@ var cleanCSS    = require('metalsmith-clean-css');
 var collections = require('metalsmith-collections');
 var concat      = require('metalsmith-concat');
 var drafts      = require('metalsmith-drafts');
+var ignore      = require('metalsmith-ignore');
 var templates   = require('metalsmith-layouts');
 var markdown    = require('metalsmith-markdown');
 var permalinks  = require('metalsmith-permalinks');
 var postcss     = require('metalsmith-postcss');
-var serve       = require('metalsmith-serve');
 
 Metalsmith(__dirname)
   .metadata({
-    title: "Grow Digital",
-    description: "We make websites. Honestly.",
+    title: "Groundwork",
+    description: "Modular CSS Starter Kit",
     generator: "Metalsmith",
-    url: "https://growdigital.org/"
+    url: "https://groundwork.rocks/"
   })
   .source('./src')
   .destination('./build')
   .clean(true)
+  .use(ignore([
+    'docs/*',
+    'assets/modules/**/**/*.hbt',
+    'assets/modules/**/**/**/*.hbt',
+    'assets/modules/**/**/**/**/*.hbt'
+  ]))
   // The order is important
   .use(concat({
     files: [
@@ -54,14 +60,11 @@ Metalsmith(__dirname)
     gfm: true
   }))
   .use(permalinks({
-    pattern: './posts/:title'
+    pattern: './posts/:title',
+    relative: false
   }))
   .use(templates({
     engine: 'handlebars'
-  }))
-  .use(serve({
-    port: 8080,
-    verbose: true
   }))
   .build(function(err, files) {
     if (err) { throw err; }

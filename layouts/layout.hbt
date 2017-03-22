@@ -25,7 +25,7 @@
 {{/each}}
 
   <footer>
-    <p>Built with 💖 and Metalsmith &mdash; <a href="{{ url }}">{{ url }}</a></p>
+    <p>Built with 💖 &amp; Metalsmith &mdash; <a href="{{ url }}">{{ url }}</a></p>
   </footer>
 
 </body>
