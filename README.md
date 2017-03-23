@@ -16,7 +16,7 @@ Now with [nodemon](https://www.npmjs.com/package/nodemon) to watch for file chan
 everything else. Overrides and helper classes eg `.u-hiddenvisually {}`
 6. **Shameful**: _temporarily disorganised_ CSS lives in `shame.css`
 
-### Credits
+## Credits
 
 * Organisation derived from [Inuit CSS](https://github.com/inuitcss) by [@CSSWizardry](https://twitter.com/csswizardry) 
 * [Inuit CSS guide](https://github.com/SonniesEdge/inuitcss-guide) by [@SonniesEdge](https://twitter.com/sonniesedge)
