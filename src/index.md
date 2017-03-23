@@ -2,4 +2,4 @@
 layout: layout.hbt
 ---
 
-## Hosted with [Netlify](https://www.netlify.com/)
+## Deploys by [Netlify](https://www.netlify.com/)

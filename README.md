@@ -9,24 +9,21 @@ Now with [nodemon](https://www.npmjs.com/package/nodemon) to watch for file chan
 ## Organisation of CSS
 
 1. **Variables**: global variables and site-wide settings eg `responsive.css`
-* **Base**: unclassed HTML elements eg `a {}`
-* **Objects**: cosmetic-free objects, abstractions, and design patterns eg `media.css`
-* **Components**: discrete, complete chunks of UI eg `carousel.css`
-* **Utilities**: high-specificity, very explicit selectors that **trump** everything else. Overrides and helper classes eg `.u-hiddenvisually {}`
+2. **Base**: unclassed HTML elements eg `a {}`
+3. **Objects**: cosmetic-free objects, abstractions, and design patterns eg `media.css`
+4. **Components**: discrete, complete chunks of UI eg `carousel.css`
+5. **Utilities**: high-specificity, very explicit selectors that trump
+everything else. Overrides and helper classes eg `.u-hiddenvisually {}`
+6. **Shameful**: _temporarily disorganised_ CSS lives in `shame.css`
 
-Organisation derived from [Inuit CSS](https://github.com/inuitcss) by [@CSSWizardry](https://twitter.com/csswizardry) ([guide](https://github.com/SonniesEdge/inuitcss-guide) by [@SonniesEdge](https://twitter.com/sonniesedge)), [SUIT CSS](https://github.com/suitcss/suit) by [@necolas]() and [SMACSS](https://smacss.com/) by [@snookca](https://twitter.com/snookca).
+### Credits
 
-/**
- * Trumping display utilities derived from SUIT CSS display utilities:
- * https://github.com/suitcss/utils-display
- */
+* Organisation derived from [Inuit CSS](https://github.com/inuitcss) by [@CSSWizardry](https://twitter.com/csswizardry) 
+* [Inuit CSS guide](https://github.com/SonniesEdge/inuitcss-guide) by [@SonniesEdge](https://twitter.com/sonniesedge)
+* [SUIT CSS](https://github.com/suitcss/suit) by [@necolas](https://twitter.com/necolas)
+* [SMACSS](https://smacss.com/) by [@snookca](https://twitter.com/snookca)
+* [Trumping](https://github.com/sonniesedge/inuitcss-guide/blob/master/trumps.md) utilities derived from [SUIT CSS utilities](https://github.com/suitcss/utils)
+* Syntax is [BEM](https://en.bem.info/), [modified](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) by [@CSSWizardry](https://twitter.com/csswizardry) 
+* [Shameful CSS](http://csswizardry.com/2013/04/shame-css/) by [@CSSWizardry](https://twitter.com/csswizardry)
 
- /**
- * Trumping layout utilities derived from SUIT CSS layout utilities:
- * https://github.com/suitcss/utils
- */
-
-/**
- * Trumping text utilities derived from SUIT CSS text utilities:
- * https://github.com/suitcss/utils-text
- */
+[![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://www.netlify.com)
