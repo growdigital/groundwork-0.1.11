@@ -18,14 +18,14 @@
   {{{ contents }}}
 
 {{#each collections }}
-<h2>{{ @key }}</h2>
+<h2 class="u-capitalise">{{ @key }}</h2>
   {{#each this }}
     <li><a href="{{ this.path }}">{{ this.title }}</a></li>
   {{/each}}
 {{/each}}
 
   <footer>
-    <p>Built with 💖 &amp; Metalsmith &mdash; <a href="{{ url }}">{{ url }}</a></p>
+    <p>Built with 💖 &amp; Metalsmith &mdash; <a href="{{ url }}">{{ url }}</a>. Deploys by <a href="https://www.netlify.com/">Netlify</a></p>
   </footer>
 
 </body>

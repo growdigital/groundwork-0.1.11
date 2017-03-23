@@ -14,7 +14,7 @@ Metalsmith(__dirname)
     title: "Groundwork",
     description: "Modular CSS Starter Kit",
     generator: "Metalsmith",
-    url: "https://groundwork.rocks/"
+    url: "https://www.groundwork.rocks/"
   })
   .source('./src')
   .destination('./build')
