@@ -18,14 +18,14 @@ everything else. Overrides and helper classes eg `.u-hiddenvisually {}`
 
 ## Credits
 
-* Organisation derived from [Inuit CSS](https://github.com/inuitcss) by [@CSSWizardry](https://twitter.com/csswizardry) 
+* Hiearchy derived from [Inuit CSS](https://github.com/inuitcss) by [@CSSWizardry](https://twitter.com/csswizardry) 
+* Organisation inspired by [PatternLab](http://patternlab.io/) by [@brad_frost](https://twitter.com/brad_frost)
 * [Inuit CSS guide](https://github.com/SonniesEdge/inuitcss-guide) by [@SonniesEdge](https://twitter.com/sonniesedge)
-* [SUIT CSS](https://github.com/suitcss/suit) by [@necolas](https://twitter.com/necolas)
-* [SMACSS](https://smacss.com/) by [@snookca](https://twitter.com/snookca)
+* Principles from [SUIT CSS](https://github.com/suitcss/suit) by [@necolas](https://twitter.com/necolas)
+* It started with a [SMACSS](https://smacss.com/) by [@snookca](https://twitter.com/snookca)
 * [Trumping](https://github.com/sonniesedge/inuitcss-guide/blob/master/trumps.md) utilities derived from [SUIT CSS utilities](https://github.com/suitcss/utils)
 * Syntax is [BEM](https://en.bem.info/), [modified](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) by [@CSSWizardry](https://twitter.com/csswizardry) 
 * [Shameful CSS](http://csswizardry.com/2013/04/shame-css/) by [@CSSWizardry](https://twitter.com/csswizardry)
-
-### Hosting
+* Component library courtesy the _amazing_ [Fractal](http://fractal.build/) by [Danielle Huntrods](https://github.com/dkhuntrods) and [Mark Perkins](https://github.com/allmarkedup)
 
 [![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://www.netlify.com)
