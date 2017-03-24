@@ -1,3 +1,3 @@
 ---
-layout: layout.hbt
+layout: layout.hbs
 ---

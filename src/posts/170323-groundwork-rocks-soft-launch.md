@@ -1,7 +1,7 @@
 ---
 title: groundwork.rocks soft launch!
 date: 2017-03-23
-layout: post.hbt
+layout: post.hbs
 collections: posts
 ---
 

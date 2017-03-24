@@ -1,5 +1,5 @@
 ---
-layout: layout.hbt
+layout: layout.hbs
 ---
 
 ## CSS Organisation

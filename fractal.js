@@ -11,6 +11,3 @@ fractal.components.set('path', __dirname + '/src/assets/modules');
 
 /* Tell Fractal where the documentation pages will live */
 fractal.docs.set('path', __dirname + '/src/docs');
-
-/* Set Handlebars extension to .hbt */
-fractal.components.set('ext', '.hbt');

@@ -12,18 +12,16 @@ var postcss     = require('metalsmith-postcss');
 Metalsmith(__dirname)
   .metadata({
     title: "Groundwork",
-    description: "Modular CSS Starter Kit",
-    generator: "Metalsmith",
-    url: "https://www.groundwork.rocks/"
+    description: "Modular CSS Starter Kit"
   })
   .source('./src')
   .destination('./build')
   .clean(true)
   .use(ignore([
     'docs/*',
-    'assets/modules/**/**/*.hbt',
-    'assets/modules/**/**/**/*.hbt',
-    'assets/modules/**/**/**/**/*.hbt'
+    'assets/modules/**/**/*.hbs',
+    'assets/modules/**/**/**/*.hbs',
+    'assets/modules/**/**/**/**/*.hbs'
   ]))
   // The order is important
   .use(concat({
