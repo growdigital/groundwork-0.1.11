@@ -18,3 +18,4 @@ The website [www.groundwork.rocks](https://www.groundwork.rocks/) unofficially w
 [![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://www.netlify.com)
 
 Soon as I get everything work just about, I’ll post a message here on this blog.
+ 

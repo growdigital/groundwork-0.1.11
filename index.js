@@ -29,13 +29,16 @@ Metalsmith(__dirname)
   .use(concat({
     files: [
       'assets/css/settings/variables.css',
+      'normalize.css/normalize.css',
       'assets/css/settings/base.css',
       'assets/css/settings/responsive.css',
       'assets/modules/objects/**/*.css',
       'assets/modules/components/**/**/*.css',
       'assets/modules/utilities/**/**/*.css',
-      'assets/css/shame.css'
+      'assets/css/shame.css',
+      'assets/css/test/*.css'
     ],
+    searchPaths: [ 'node_modules' ],
     output: 'assets/styles.css'
   }))
   .use(postcss({
