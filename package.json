@@ -1,5 +1,12 @@
 {
   "name": "groundwork",
+  "version": "0.0.1",
+  "description": "Modular CSS Starter Kit using Metalsmith",
+  "author": "Jake Rayson <contact@growdigital.org>",
+  "license": [
+    "MIT ",
+    "GNU GENERAL PUBLIC LICENSE"
+  ],
   "private": true,
   "dependencies": {
     "@frctl/fractal": "^1.1.3",
