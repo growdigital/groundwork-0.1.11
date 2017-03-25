@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Front Matter snippet for Sublime Text in Metalsmith post</title>
+  <meta name="description" content="Modular CSS Starter Kit">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header>
+    <p> <a href="/">Home</a> </p>
+  </header>
+  <h1>Front Matter snippet for Sublime Text in Metalsmith post</h1>
+  <time>Sat Mar 25 2017 00:00:00 GMT+0000 (GMT)</time>
+  <p>I made a quick snippet to add the <a href="https://jekyllrb.com/docs/frontmatter/">Front Matter</a> to <a href="http://www.metalsmith.io/">Metalsmith</a> blog posts, using the <a href="">Sublime Text Unofficial Documentation</a> and this <a href="http://stackoverflow.com/questions/13922174/defining-scope-for-custom-sublime-text-2-snippets#14682280">handy reference</a> for defining scope in Sublime. This is my result:</p>
+<pre><code>&lt;snippet&gt;
+  &lt;content&gt;&lt;![CDATA[
+---
+title: $1 
+date: ${2:2017-04-01}
+layout: post.hbs
+collections: posts
+draft: true
+---
+
+
+]]&gt;&lt;/content&gt;
+  &lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&gt;
+    &lt;tabTrigger&gt;fm&lt;/tabTrigger&gt;
+  &lt;!-- Optional: Set a scope to limit where the snippet will trigger --&gt;
+    &lt;scope&gt;text.html.markdown&lt;/scope&gt;
+&lt;/snippet&gt;
+</code></pre><p>Tab to move between title, date and the beginning of the post. </p>
+<p>Type <code>fm</code> then hit the tab key to expand.</p>
+<p>It would be nice to insert the date with a keystroke. There’s a <a href="https://github.com/FichteFoll/InsertDate">plugin for that</a>, maybe tomorrow…</p>
+
+
+  <footer>
+    <p>Built with <a href="http://www.metalsmith.io/">Metalsmith</a>, deployed by <a href="https://www.netlify.com/">Netlify</a></p>
+  </footer>
+</body>
+</html>
