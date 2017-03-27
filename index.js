@@ -3,6 +3,7 @@ var cleanCSS    = require('metalsmith-clean-css');
 var collections = require('metalsmith-collections');
 var concat      = require('metalsmith-concat');
 var drafts      = require('metalsmith-drafts');
+var feed        = require('metalsmith-feed');
 var ignore      = require('metalsmith-ignore');
 var templates   = require('metalsmith-layouts');
 var markdown    = require('metalsmith-markdown');
@@ -12,7 +13,9 @@ var postcss     = require('metalsmith-postcss');
 Metalsmith(__dirname)
   .metadata({
     title: "Groundwork",
-    description: "Modular CSS Starter Kit"
+    description: "Modular CSS Starter Kit",
+    url: "https://www.groundwork.rocks/",
+    author: "Jake Rayson"
   })
   .source('./src')
   .destination('./build')
@@ -67,6 +70,7 @@ Metalsmith(__dirname)
   .use(templates({
     engine: 'handlebars'
   }))
+  // .use(feed({collection: 'posts'}))
   .build(function(err, files) {
     if (err) { throw err; }
   });

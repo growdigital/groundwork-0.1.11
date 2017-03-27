@@ -1,10 +1,37 @@
 # Groundwork
 
-Modular CSS starter kit using Metalsmith static site generator.
+[![Code Climate][climate-badge]][climate-url] [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Slack chat][slack-badge]][slack-url]
 
-    $ npm run dev
+### Modular CSS Starter Kit
 
-Now with [nodemon](https://www.npmjs.com/package/nodemon) to watch for file changes and [browser-sync](https://www.npmjs.com/package/browser-sync) to automatically preview changes in browser.
+![Groundwork logo](build/assets/images/logo.png)
+
+## Installation
+
+```
+$ npm install
+$ npm run dev
+```
+
+## Features
+
+* Automatically combines individual modular CSS files into one stylesheet
+* [Modified](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) [BEM](https://en.bem.info/) syntax
+* Plain CSS, latest syntax converted by [PostCSS-cssnext](http://cssnext.io/) plugin
+* [Metalsmith](http://www.metalsmith.io/) build process, from `src` to `build`
+* Simple templates with [Handlebars](http://handlebarsjs.com/)
+* Bundled with [Fractal](http://fractal.build/) styleguide
+* [nodemon](https://www.npmjs.com/package/nodemon) to watch for file changes 
+* [browser-sync](https://browsersync.io/) to automatically preview changes in browser.
+
+## Usage
+
+1. `$ npm run dev` to start the server and browsersync running. 
+2. Add CSS modules in `src/assets/modules`, either `components`, `objects` or utilities. If you add a Handlebars template `.hbs` file, it will picked up by Fractal styleguide.
+3. To run Fractal:
+```
+fractal start --sync
+```
 
 ## Organisation of CSS
 
@@ -29,3 +56,12 @@ everything else. Overrides and helper classes eg `.u-hiddenvisually {}`
 * Component library courtesy the _amazing_ [Fractal](http://fractal.build/) by [Danielle Huntrods](https://github.com/dkhuntrods) and [Mark Perkins](https://github.com/allmarkedup)
 
 [![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://www.netlify.com)
+
+[climate-badge]: https://codeclimate.com/github/growdigital/groundwork/badges/gpa.svg
+[climate-url]: https://codeclimate.com/github/growdigital/groundwork
+[issue-badge]: https://codeclimate.com/github/growdigital/groundwork/badges/issue_count.svg
+[issue-url]: https://codeclimate.com/github/growdigital/groundwork
+[dep-badge]: https://www.versioneye.com/user/projects/58d97d9226a5bb002b54bea2/badge.svg?style=flat-square
+[dep-url]: https://www.versioneye.com/user/projects/58d97d9226a5bb002b54bea2
+[slack-badge]: https://img.shields.io/badge/Groundwork%20Rocks-Join%20Chat%20→-blue.svg
+[slack-url]: https://groundworkrocks.slack.com/
