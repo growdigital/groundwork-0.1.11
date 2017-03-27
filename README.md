@@ -6,13 +6,22 @@
 
 ![Groundwork logo](build/assets/images/logo.png)
 
-## Installation
+## Setting up
+
+Make sure to have [Node.js](https://nodejs.org/en/) installed.
+
+### Clone the repo
+
+```
+$ git clone git@github.com:growdigital/groundwork.git
+$ cd groundwork
+```
+
+### Install [npm](https://www.npmjs.com/) packages
 
 ```
 $ npm install
-$ npm run dev
 ```
-
 ## Features
 
 * Automatically combines individual modular CSS files into one stylesheet
@@ -26,9 +35,15 @@ $ npm run dev
 
 ## Usage
 
-1. `$ npm run dev` to start the server and browsersync running. 
-2. Add CSS modules in `src/assets/modules`, either `components`, `objects` or utilities. If you add a Handlebars template `.hbs` file, it will picked up by Fractal styleguide.
-3. To run Fractal:
+* Start the server and browsersync:
+
+```
+$ npm run dev 
+```
+
+* Add CSS modules in `src/assets/modules`, either `components`, `objects` or utilities. If you add a Handlebars template `.hbs` file, it will picked up by Fractal styleguide.
+* To run Fractal:
+
 ```
 fractal start --sync
 ```
