@@ -10,14 +10,14 @@
 
 Make sure to have [Node.js](https://nodejs.org/en/) installed.
 
-### Clone the repo
+#### Clone the repo
 
 ```
 $ git clone git@github.com:growdigital/groundwork.git
 $ cd groundwork
 ```
 
-### Install [npm](https://www.npmjs.com/) packages
+#### Install [npm](https://www.npmjs.com/) packages
 
 ```
 $ npm install
