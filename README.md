@@ -69,6 +69,7 @@ everything else. Overrides and helper classes eg `.u-hiddenvisually {}`
 * Syntax is [BEM](https://en.bem.info/), [modified](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) by [@CSSWizardry](https://twitter.com/csswizardry) 
 * [Shameful CSS](http://csswizardry.com/2013/04/shame-css/) by [@CSSWizardry](https://twitter.com/csswizardry)
 * Component library courtesy the _amazing_ [Fractal](http://fractal.build/) by [Danielle Huntrods](https://github.com/dkhuntrods) and [Mark Perkins](https://github.com/allmarkedup)
+* Groundwork logo by [Jesse Bennett-Chamberlain](https://twitter.com/jessebc)
 
 [![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://www.netlify.com)
 
