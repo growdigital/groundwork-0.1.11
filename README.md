@@ -1,10 +1,10 @@
 # Groundwork
 
+[![Code Climate][climate-badge]][climate-url] [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Slack chat][slack-badge]][slack-url]
+
 ### Modular CSS Starter Kit
 
 ![Groundwork logo](build/assets/images/logo.png)
-
-[![Code Climate][climate-badge]][climate-url] [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Slack chat][slack-badge]][slack-url]
 
 ## Setting up
 
