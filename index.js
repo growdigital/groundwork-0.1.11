@@ -63,6 +63,7 @@ Metalsmith(__dirname)
   .use(markdown({
     gfm: true
   }))
+  // .use(feed({collection: 'posts'}))
   .use(permalinks({
     pattern: './posts/:title',
     relative: false
@@ -70,7 +71,6 @@ Metalsmith(__dirname)
   .use(templates({
     engine: 'handlebars'
   }))
-  // .use(feed({collection: 'posts'}))
   .build(function(err, files) {
     if (err) { throw err; }
   });

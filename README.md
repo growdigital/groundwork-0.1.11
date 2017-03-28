@@ -2,7 +2,7 @@
 
 [![Code Climate][climate-badge]][climate-url] [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Slack chat][slack-badge]][slack-url]
 
-### Modular CSS Starter Kit
+### Modular CSS Starter Kit. It rocks.
 
 ![Groundwork logo](build/assets/images/logo.png)
 
@@ -42,6 +42,14 @@ $ npm run dev
 
 ```
 fractal start --sync
+```
+
+---
+
+If you just want to build the site (for example, if you’re publishing a post and don’t need to preview it), then just run:
+
+```
+make build
 ```
 
 ## Organisation of CSS
