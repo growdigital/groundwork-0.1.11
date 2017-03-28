@@ -23,7 +23,52 @@
   <p>Modular CSS Starter Kit</p>
 
   <h1 id="css-organisation">CSS Organisation</h1>
-
+<p>The CSS organisation is loosely based on <a href="https://github.com/itcss">Inverted Triangle CSS</a> by <a href="https://twitter.com/csswizardry">Harry Roberts</a>. The <strong>inverted triangle</strong> is from the broadest and most applicable styles (variables, base) through to specific modules (objects and components) and then on to <em>very specific</em> trumping utilities and shameful hacks.</p>
+<ol>
+<li><strong>Variables</strong>: global variables and site-wide settings eg <code>responsive.css</code></li>
+<li><strong>Base</strong>: unclassed HTML elements eg <code>a {}</code></li>
+<li><strong>Objects</strong>: cosmetic-free objects, abstractions, and design patterns eg <code>media.css</code></li>
+<li><strong>Components</strong>: discrete, complete chunks of UI eg <code>carousel.css</code></li>
+<li><strong>Utilities</strong>: high-specificity, very explicit selectors that trump
+everything else. Overrides and helper classes eg <code>.u-hiddenvisually {}</code></li>
+<li><strong>Shameful</strong>: <em>temporarily disorganised</em> CSS lives in <code>shame.css</code></li>
+</ol>
+<p>Here’s a hand-drawn, rainbow coloured triangle:</p>
+<p>The whole idea is that <strong>all files relating to a particular module go in that module folder</strong>: eg JavaScript, PNGs, SVGs, CSS and the Handlebars template. </p>
+<h2 id="example-of-directory-structure">Example of directory structure</h2>
+<pre><code>src
+└── assets
+    ├── css
+    │   ├── settings
+    │   │   ├── base.css
+    │   │   ├── responsive.css
+    │   │   └── variables.css
+    │   ├── test
+    │   │   └── test.css
+    │   └── shame.css
+    ├── fonts
+    ├── images
+    ├── javascript
+    └── modules
+        ├── components
+        │   ├── forms
+        |   │   ├── button
+        |   |   │   ├── button.css
+        |   |   │   ├── button.hbs
+        |   |   │   └── button.js
+        |   │   └── textfield
+        │   ├── graphics
+        |   │   └── logo
+        │   ├── navigation
+        |   │   ├── nav
+        |   │   ├── pager
+        |   │   └── tabs
+        │   └── typography
+        |   │   └── heading
+        ├── objects
+        │   └── media
+        └── utilities
+</code></pre>
 
 <h2 class="u-capitalise">posts</h2>
     <li><a href="./posts/twitter-a-go-go">Twitter A Go Go</a></li>

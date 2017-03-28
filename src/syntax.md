@@ -4,6 +4,12 @@ layout: layout.hbs
 
 # Syntax
 
+## Modified BEM syntax
+
+
+
+## Comments
+
 ```
 /* ==========================================================================
    Section comment block
@@ -35,3 +41,5 @@ layout: layout.hbs
 
 /* Basic comment */
 ```
+
+I _think_ these are from [SUIT CSS](http://suitcss.github.io/)!
