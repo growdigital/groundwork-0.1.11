@@ -16,6 +16,8 @@ everything else. Overrides and helper classes eg `.u-hiddenvisually {}`
 
 Here’s a hand-drawn, rainbow coloured triangle:
 
+![Rainbow coloured Inverted CSS Triangle](/assets/images/inverted-css-triangle.png)
+
 The whole idea is that **all files relating to a particular module go in that module folder**: eg JavaScript, PNGs, SVGs, CSS and the Handlebars template. 
 
 ## Example of directory structure 
