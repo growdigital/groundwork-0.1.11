@@ -73,7 +73,6 @@ For example:
 
 I _think_ these are from [SUIT CSS](http://suitcss.github.io/)!
 
-
 ## Credits
 
 Modified BEM syntax mostly from [Harry Roberts](https://twitter.com/csswizardry)’ [MindBEMding – getting your head ’round BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) and [Nicolas Gallagher](https://twitter.com/necolas)’s [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md). As the kids used to say in the 1990s, _respec’_
