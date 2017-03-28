@@ -4,7 +4,7 @@ layout: layout.hbs
 
 # Styleguide
 
-A guiding principle in [Kanban](https://en.wikipedia.org/wiki/Kanban_(development)) process management is **make work visible**. 
+A guiding principle in [Kanban](https://en.wikipedia.org/wiki/Kanban_(development) process management is **make work visible** (Kanban 看板 literally means billboard in Japanese).
 
 This is why a styleguide is **so** important.
 
