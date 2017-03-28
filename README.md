@@ -21,16 +21,11 @@
 
 Make sure to have [Node.js](https://nodejs.org/en/) installed.
 
-#### Clone the repo
+#### Clone repo, install packages
 
 ```
 $ git clone git@github.com:growdigital/groundwork.git
 $ cd groundwork
-```
-
-#### Install [npm](https://www.npmjs.com/) packages
-
-```
 $ npm install
 ```
 
@@ -42,8 +37,8 @@ $ npm install
 $ npm run dev 
 ```
 
-* Add CSS modules in `src/assets/modules`, either `components`, `objects` or utilities. If you add a Handlebars template `.hbs` file, it will picked up by Fractal styleguide.
-* To run Fractal:
+* **Add CSS modules** in `src/assets/modules`, either `components`, `objects` or utilities. If you add a Handlebars template `.hbs` file, it will picked up by Fractal styleguide.
+* To start the Fractal styleguide:
 
 ```
 fractal start --sync
