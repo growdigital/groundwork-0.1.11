@@ -2,7 +2,7 @@
 layout: layout.hbs
 ---
 
-# About Groundwork 
+# Principles of Modular CSS
 
 
 

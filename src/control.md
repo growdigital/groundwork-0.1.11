@@ -2,7 +2,6 @@
 layout: layout.hbs
 ---
 
-# About Groundwork 
-
+# Let go control
 
 

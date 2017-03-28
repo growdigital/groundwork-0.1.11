@@ -2,7 +2,4 @@
 layout: layout.hbs
 ---
 
-# About Groundwork 
-
-
-
+# Syntax

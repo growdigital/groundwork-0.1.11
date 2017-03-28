@@ -2,5 +2,5 @@
 layout: layout.hbs
 ---
 
-## Styleguide
+# Styleguide
 
