@@ -23,6 +23,26 @@
   <p>Modular CSS Starter Kit</p>
 
   <h1 id="principles-of-modular-css">Principles of Modular CSS</h1>
+<p>CSS is easy to write but a bugger to maintain. </p>
+<p>Writing your CSS as modules can help because <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself">repeating patterns</a> are recognised, named and re-used.</p>
+<p>Because each module is written as <em>separate</em> files in their own directory, <a href="https://git-scm.com/about">version control</a> is much easier. It is also easy to find specific modules: looking for a button? Just <a href="http://docs.sublimetext.info/en/latest/file_management/file_navigation.html#goto-anything">goto</a> <code>button.css</code>.</p>
+<p>As each module is separate, this means that <a href="http://fractal.build/guide">building a style guide</a> requires minimal setup.</p>
+<h2 id="some-key-principles">Some key principles</h2>
+<ol>
+<li><strong>Only use classes, not IDs</strong>. IDs have a much higher specificity, which can then lead to all sorts of <a href="https://stuffandnonsense.co.uk/archives/css_specificity_wars.html">specifity wars</a> when trying to apply a style.  </li>
+<li><strong>Don’t use HTML tags in class definitions</strong>. This means classes can be applied to <em>any</em> element eg <code>&lt;input class=&quot;button&quot; type=&quot;submit&quot;&gt;</code> and <code>&lt;button class=&quot;button&quot;&gt;pushme&lt;/button&gt;</code>.</li>
+<li><strong>Only use the module for one bit of functionality</strong>. This is the <a href="https://en.wikipedia.org/wiki/Single_responsibility_principle">Single Responsibility Principle</a>.</li>
+<li><strong>Class names should be <em>functional</em> &amp; independent of content</strong>. Again, this makes a module <em>re-usable</em> in different contexts.</li>
+</ol>
+<h2 id="further-reading">Further reading</h2>
+<p>This just scratches the surface, there is a wealth of information out there:</p>
+<ul>
+<li><a href="https://github.com/suitcss/suit/blob/master/doc/README.md">SUIT CSS documentation</a> by <a href="https://twitter.com/necolas">Nicolas Gallagher</a></li>
+<li><a href="http://nicolasgallagher.com/about-html-semantics-front-end-architecture/">About HTML semantics and front-end architecture</a> by <a href="https://twitter.com/necolas">Nicolas Gallagher</a></li>
+<li><a href="https://smacss.com/">Scalable and Modular Architecture for CSS</a> by <a href="https://twitter.com/snookca">Jonathan Snook</a></li>
+<li><a href="https://en.bem.info/">BEM Methodology</a> (Block Element Modifier) by <a href="https://www.yandex.com/">Yandex</a> </li>
+<li><a href="https://csswizardry.com/archive/">CSS Wizardry blog</a> by <a href="https://twitter.com/csswizardry">Harry Roberts</a></li>
+</ul>
 
 
 <h2 class="u-capitalise">posts</h2>
