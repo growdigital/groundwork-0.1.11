@@ -32,7 +32,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "dev": "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'",
+    "dev": "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload' 'fractal start --sync'",
     "browser_sync": "browser-sync start --server build --browser='google chrome'"
   }
 }

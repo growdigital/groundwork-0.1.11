@@ -6,6 +6,17 @@
 
 ![Groundwork logo](build/assets/images/logo.png)
 
+## Features
+
+* Automatically combines individual modular CSS files into one stylesheet
+* [Modified](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) [BEM](https://en.bem.info/) syntax for extendable CSS eg `.button--
+* [PostCSS-cssnext](http://cssnext.io/) plugin for using latest features in plain CSS
+* [Metalsmith](http://www.metalsmith.io/) build process, from `src` to `build`
+* [Handlebars](http://handlebarsjs.com/) for plain HTML templates
+* [Fractal](http://fractal.build/) for built-in styleguide
+* [nodemon](https://www.npmjs.com/package/nodemon) to watch for file changes 
+* [browser-sync](https://browsersync.io/) to automatically preview changes in browser
+
 ## Setting up
 
 Make sure to have [Node.js](https://nodejs.org/en/) installed.
@@ -22,20 +33,10 @@ $ cd groundwork
 ```
 $ npm install
 ```
-## Features
-
-* Automatically combines individual modular CSS files into one stylesheet
-* [Modified](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) [BEM](https://en.bem.info/) syntax
-* Plain CSS, latest syntax converted by [PostCSS-cssnext](http://cssnext.io/) plugin
-* [Metalsmith](http://www.metalsmith.io/) build process, from `src` to `build`
-* Simple templates with [Handlebars](http://handlebarsjs.com/)
-* Bundled with [Fractal](http://fractal.build/) styleguide
-* [nodemon](https://www.npmjs.com/package/nodemon) to watch for file changes 
-* [browser-sync](https://browsersync.io/) to automatically preview changes in browser.
 
 ## Usage
 
-* Start the server and browsersync:
+* Start the build, watch and browsersync script:
 
 ```
 $ npm run dev 
@@ -57,6 +58,8 @@ fractal start --sync
 5. **Utilities**: high-specificity, very explicit selectors that trump
 everything else. Overrides and helper classes eg `.u-hiddenvisually {}`
 6. **Shameful**: _temporarily disorganised_ CSS lives in `shame.css`
+
+Documentation will be on the website [www.groundwork.rocks](https://www.groundwork.rocks).
 
 ## Credits
 
