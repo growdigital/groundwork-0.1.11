@@ -31,25 +31,24 @@ $ npm install
 
 ## Usage
 
-* Start the build, watch and browsersync script:
+Start the build, watch and browsersync script:
 
 ```
 $ npm run dev 
 ```
 
-* **Add CSS modules** in `src/assets/modules`, either `components`, `objects` or utilities. If you add a Handlebars template `.hbs` file, it will picked up by Fractal styleguide.
-* To start the Fractal styleguide:
+**Add CSS modules** in `src/assets/modules`, either `components`, `objects` or utilities. If you add a Handlebars template `.hbs` file, it will picked up by Fractal styleguide.
+
+To start the Fractal styleguide:
 
 ```
-fractal start --sync
+$ fractal start --sync
 ```
-
----
 
 If you just want to build the site (for example, if you’re publishing a post and don’t need to preview it), then just run:
 
 ```
-make build
+$ make build
 ```
 
 ## Organisation of CSS
