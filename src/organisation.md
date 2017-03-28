@@ -4,7 +4,7 @@ layout: layout.hbs
 
 # CSS Organisation
 
-The CSS organisation is loosely based on [Inverted Triangle CSS](https://github.com/itcss) by [Harry Roberts](https://twitter.com/csswizardry). The **inverted triangle** is from the broadest and most applicable styles (variables, base) through to specific modules (objects and components) and then on to _very specific_ trumping utilities and shameful hacks.
+The CSS organisation is loosely based on [Inverted Triangle CSS](https://github.com/itcss) by [Harry Roberts](https://twitter.com/csswizardry). The **inverted triangle** is from the broadest and most applicable styles (variables, base) through to specific modules (objects and components) and then on to _very specific_ trumping utilities and [shameful hacks](https://csswizardry.com/2013/04/shame-css/).
 
 1. **Variables**: global variables and site-wide settings eg `responsive.css`
 2. **Base**: unclassed HTML elements eg `a {}`
