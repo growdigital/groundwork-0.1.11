@@ -6,7 +6,36 @@ layout: layout.hbs
 
 ## Modified BEM syntax
 
+In short, [this](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/):
 
+```
+.block {}
+.block__element {}
+.block--modifier {}
+```
+
+The `block` is the module (object or component), the `block__element` is a _descendant_ of that module and the `block--modifier` is a variation on that module.
+
+For example:
+
+```
+.search {}
+.search__field {}
+.search--full {}
+```
+
+## Some rules
+
+* Hyphen to separate words in long names & two underscores to separate the name of the block from the name of the element:  
+`block-name__element-name`
+* ID-based CSS selectors must not be used
+* Blocks (or elements) must have unique names
+* CSS class for a block coincides with its block name
+* HTML elements must not be used in CSS selectors
+* A modifier is a property of a block or an element that alters its look or behavior.
+* A modifier has a name and a value. Several modifiers can be used at once.
+* Double dash to separate name of block/element from name of modifier:  
+`menu menu--big`
 
 ## Comments
 
@@ -43,3 +72,8 @@ layout: layout.hbs
 ```
 
 I _think_ these are from [SUIT CSS](http://suitcss.github.io/)!
+
+
+## Credits
+
+Modified BEM syntax mostly from [Harry Roberts](https://twitter.com/csswizardry)’ [MindBEMding – getting your head ’round BEM syntax](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) and [Nicolas Gallagher](https://twitter.com/necolas)’s [SUIT CSS naming conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md). As the kids used to say in the 1990s, _respec’_

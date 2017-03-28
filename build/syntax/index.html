@@ -24,6 +24,26 @@
 
   <h1 id="syntax">Syntax</h1>
 <h2 id="modified-bem-syntax">Modified BEM syntax</h2>
+<p>In short, <a href="https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/">this</a>:</p>
+<pre><code>.block {}
+.block__element {}
+.block--modifier {}
+</code></pre><p>The <code>block</code> is the module (object or component), the <code>block__element</code> is a <em>descendant</em> of that module and the <code>block--modifier</code> is a variation on that module.</p>
+<p>For example:</p>
+<pre><code>.search {}
+.search__field {}
+.search--full {}
+</code></pre><h2 id="some-rules">Some rules</h2>
+<ul>
+<li>Hyphen to separate words in long names &amp; two underscores to separate the name of the block from the name of the element:<br><code>block-name__element-name</code></li>
+<li>ID-based CSS selectors must not be used</li>
+<li>Blocks (or elements) must have unique names</li>
+<li>CSS class for a block coincides with its block name</li>
+<li>HTML elements must not be used in CSS selectors</li>
+<li>A modifier is a property of a block or an element that alters its look or behavior.</li>
+<li>A modifier has a name and a value. Several modifiers can be used at once.</li>
+<li>Double dash to separate name of block/element from name of modifier:<br><code>menu menu--big</code></li>
+</ul>
 <h2 id="comments">Comments</h2>
 <pre><code>/* ==========================================================================
    Section comment block
@@ -55,6 +75,8 @@
 
 /* Basic comment */
 </code></pre><p>I <em>think</em> these are from <a href="http://suitcss.github.io/">SUIT CSS</a>!</p>
+<h2 id="credits">Credits</h2>
+<p>Modified BEM syntax mostly from <a href="https://twitter.com/csswizardry">Harry Roberts</a>’ <a href="https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/">MindBEMding – getting your head ’round BEM syntax</a> and <a href="https://twitter.com/necolas">Nicolas Gallagher</a>’s <a href="https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md">SUIT CSS naming conventions</a>. As the kids used to say in the 1990s, <em>respec’</em></p>
 
 
 <h2 class="u-capitalise">posts</h2>
