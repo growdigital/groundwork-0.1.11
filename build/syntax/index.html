@@ -14,7 +14,6 @@
         <li><a href="/principles/" title="">Principles</a></li>
         <li><a href="/organisation/" title="">Organisation</a></li>
         <li><a href="/syntax/" title="">Syntax</a></li>
-        <li><a href="/styleguide/" title="">Styleguide</a></li>
         <li><a href="/tutorial/" title="">Tutorial</a></li>
       </ol>
     </nav>
@@ -33,17 +32,24 @@
 <pre><code>.search {}
 .search__field {}
 .search--full {}
-</code></pre><h2 id="some-rules">Some rules</h2>
+</code></pre><h2 id="bem-ground-rules">BEM ground rules</h2>
 <ul>
 <li>Hyphen to separate words in long names &amp; two underscores to separate the name of the block from the name of the element:<br><code>block-name__element-name</code></li>
-<li>ID-based CSS selectors must not be used</li>
-<li>Blocks (or elements) must have unique names</li>
 <li>CSS class for a block coincides with its block name</li>
-<li>HTML elements must not be used in CSS selectors</li>
 <li>A modifier is a property of a block or an element that alters its look or behavior.</li>
 <li>A modifier has a name and a value. Several modifiers can be used at once.</li>
 <li>Double dash to separate name of block/element from name of modifier:<br><code>menu menu--big</code></li>
 </ul>
+<h2 id="namespacing">Namespacing</h2>
+<p>To add yet more clarity to the <code>block__element--modifier</code> convention, we can use “namespacing”: prefixing a module with an identifying character. This makes it easy to see what type of module we’re dealing with:</p>
+<pre><code>o-object
+c-component
+u-utility
+js-javascript
+_-hack
+is-state, has-state
+</code></pre><p>For example, <code>.c-button {}</code>, <code>.o-media {}</code>. <code>u-cf</code>, <code>_-messy-hack</code>.</p>
+<p>Taken from <a href="https://twitter.com/csswizardry">Harry Roberts</a>’ <a href="https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/">More transparent UI code with namespaces</a>, <a href="https://twitter.com/necolas">Nicholas Gallagher</a>’s <a href="https://github.com/suitcss/utils">SUIT CSS utilities</a> and <a href="https://twitter.com/snookca">Jonathan Snook</a>’s <a href="https://smacss.com/book/type-state">SMACSS State Rules</a>.</p>
 <h2 id="comments">Comments</h2>
 <pre><code>/* ==========================================================================
    Section comment block

@@ -24,18 +24,32 @@ For example:
 .search--full {}
 ```
 
-## Some rules
+## BEM ground rules
 
 * Hyphen to separate words in long names & two underscores to separate the name of the block from the name of the element:  
 `block-name__element-name`
-* ID-based CSS selectors must not be used
-* Blocks (or elements) must have unique names
 * CSS class for a block coincides with its block name
-* HTML elements must not be used in CSS selectors
 * A modifier is a property of a block or an element that alters its look or behavior.
 * A modifier has a name and a value. Several modifiers can be used at once.
 * Double dash to separate name of block/element from name of modifier:  
 `menu menu--big`
+
+## Namespacing
+
+To add yet more clarity to the `block__element--modifier` convention, we can use “namespacing”: prefixing a module with an identifying character. This makes it easy to see what type of module we’re dealing with:
+
+```
+o-object
+c-component
+u-utility
+js-javascript
+_-hack
+is-state, has-state
+```
+
+For example, `.c-button {}`, `.o-media {}`. `u-cf`, `_-messy-hack`.
+
+Taken from [Harry Roberts](https://twitter.com/csswizardry)’ [More transparent UI code with namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/), [Nicholas Gallagher](https://twitter.com/necolas)’s [SUIT CSS utilities](https://github.com/suitcss/utils) and [Jonathan Snook](https://twitter.com/snookca)’s [SMACSS State Rules](https://smacss.com/book/type-state).
 
 ## Comments
 
