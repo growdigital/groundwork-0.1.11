@@ -27,6 +27,7 @@ Metalsmith(__dirname)
     'assets/modules/**/**/**/**/*.hbs'
   ]))
   // The order is important
+  // CSS
   .use(concat({
     files: [
       'assets/css/settings/variables.css',
@@ -41,6 +42,17 @@ Metalsmith(__dirname)
     ],
     searchPaths: [ 'node_modules' ],
     output: 'assets/styles.css'
+  }))
+  // JavaScript
+  .use(concat({
+    files: [
+      'assets/js/*.js',
+      'assets/modules/objects/**/*.js',
+      'assets/modules/components/**/**/*.js',
+      'assets/modules/utilities/**/**/*.js'
+    ],
+    searchPaths: [ 'node_modules' ],
+    output: 'assets/scripts.js'
   }))
   .use(postcss({
     plugins: {

@@ -35,7 +35,7 @@ src
     │   └── shame.css
     ├── fonts
     ├── images
-    ├── javascript
+    ├── js
     └── modules
         ├── components
         │   ├── forms
