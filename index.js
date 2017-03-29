@@ -13,7 +13,7 @@ var postcss     = require('metalsmith-postcss');
 Metalsmith(__dirname)
   .metadata({
     title: "Groundwork",
-    description: "Modular CSS Starter Kit",
+    description: "Modular CSS Starter Kit. It rocks.",
     url: "https://www.groundwork.rocks/",
     author: "Jake Rayson"
   })
