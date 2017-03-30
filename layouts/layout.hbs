@@ -8,8 +8,8 @@
   <link rel="shortcut icon" href="/assets/images/favicon.ico">
 </head>
 <body>
-  <header>
-    <nav>
+  <header role="banner">
+    <nav role="navigation">
       <ol>
         <li><a href="/" title="">Home</a></li>
         <li><a href="/principles/" title="">Principles</a></li>
@@ -19,19 +19,25 @@
       </ol>
     </nav>
   </header>
-  <h1>{{ title }}</h1>
-  <p>{{ description }}</p>
+  <main role="main">
 
-  {{{ contents }}}
+    <h1>{{ title }}</h1>
+    <p>{{ description }}</p>
 
-{{#each collections }}
-<h2 class="u-capitalise">{{ @key }}</h2>
-  {{#each this }}
-    <li><a href="{{ this.path }}">{{ this.title }}</a></li>
-  {{/each}}
-{{/each}}
+    {{{ contents }}}
 
-  <footer>
+    {{#each collections }}
+    <h2 class="u-capitalise">{{ @key }}</h2>
+      {{#each this }}
+        <li><a href="{{ this.path }}">{{ this.title }}</a></li>
+      {{/each}}
+    {{/each}}
+  </main>
+
+  <aside role="complementary">
+  </aside>
+
+  <footer role="contentinfo">
     <p>Built with <a href="http://www.metalsmith.io/">Metalsmith</a>, deployed by <a href="https://www.netlify.com/">Netlify</a></p>
   </footer>
 
