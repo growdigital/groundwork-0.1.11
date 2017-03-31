@@ -12,7 +12,3 @@
  * eg .c-footer-mobile {}
  * https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#hack-namespaces-_
  */
-
-.u-capitalise {
-  text-transform: capitalize !important;
-}

@@ -27,7 +27,7 @@
     {{{ contents }}}
 
     {{#each collections }}
-    <h2 class="u-capitalise">{{ @key }}</h2>
+    <h2>{{ @key }}</h2>
       {{#each this }}
         <li><a href="{{ this.path }}">{{ this.title }}</a></li>
       {{/each}}
@@ -38,7 +38,7 @@
   </aside>
 
   <footer role="contentinfo">
-    <p>Built with <a href="http://www.metalsmith.io/">Metalsmith</a>, deployed by <a href="https://www.netlify.com/">Netlify</a></p>
+    <p>Built by <a href="https://www.growdigital.org/">Jake Rayson with</a> <a href="http://www.metalsmith.io/">Metalsmith</a>, deployed by <a href="https://www.netlify.com/">Netlify</a></p>
   </footer>
 
 </body>
