@@ -2,6 +2,7 @@ var Metalsmith  = require('metalsmith');
 var cleanCSS    = require('metalsmith-clean-css');
 var collections = require('metalsmith-collections');
 var concat      = require('metalsmith-concat');
+var dateFormat  = require('metalsmith-date-formatter');
 var drafts      = require('metalsmith-drafts');
 var feed        = require('metalsmith-feed');
 var ignore      = require('metalsmith-ignore');
@@ -72,10 +73,11 @@ Metalsmith(__dirname)
       reverse: true
     }
   }))
-  .use(markdown({
+   .use(markdown({
     gfm: true
   }))
   // .use(feed({collection: 'posts'}))
+  .use(dateFormat())
   .use(permalinks({
     pattern: './posts/:title',
     relative: false
