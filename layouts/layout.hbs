@@ -10,10 +10,12 @@
     {{{ contents }}}
 
     {{#each collections }}
-    <h2>{{ @key }}</h2>
+    <h2>Posts</h2>
+      <ol>
       {{#each this }}
         <li><a href="{{ this.path }}">{{ this.title }}</a></li>
       {{/each}}
+      </ol>
     {{/each}}
 
   </main>
