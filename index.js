@@ -77,7 +77,10 @@ Metalsmith(__dirname)
     gfm: true
   }))
   // .use(feed({collection: 'posts'}))
-  .use(dateFormat())
+  .use(dateFormat({
+    key: 'date',
+    format: 'ddd D MMM YYYY'
+  }))
   .use(permalinks({
     pattern: './posts/:title',
     relative: false
