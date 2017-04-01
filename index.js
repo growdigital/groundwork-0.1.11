@@ -8,6 +8,7 @@ var feed        = require('metalsmith-feed');
 var ignore      = require('metalsmith-ignore');
 var templates   = require('metalsmith-layouts');
 var markdown    = require('metalsmith-markdown');
+var partials    = require('metalsmith-discover-partials');
 var permalinks  = require('metalsmith-permalinks');
 var postcss     = require('metalsmith-postcss');
 
@@ -73,8 +74,12 @@ Metalsmith(__dirname)
       reverse: true
     }
   }))
-   .use(markdown({
+  .use(markdown({
     gfm: true
+  }))
+  .use(partials({
+    directory: 'partials',
+    pattern: /\.hbs$/
   }))
   // .use(feed({collection: 'posts'}))
   .use(dateFormat({
