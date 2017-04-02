@@ -27,7 +27,7 @@ Metalsmith(__dirname)
   })
   .source('./src')
   .destination('./build')
-  .clean(true)
+  .clean(false)
   .use(ignore([
     'docs/*',
     'assets/modules/**/**/*.hbs',
