@@ -21,6 +21,14 @@ $ make build
 $ fractal start --sync
 ```
 
+Use this [development server](http://fractal.build/guide/web/server) for, er, development.
+
+To [export static HTML](http://fractal.build/guide/web/builder) to the build directory:
+
+```
+$ fractal build
+```
+
 ## Syntax
 
 ```
