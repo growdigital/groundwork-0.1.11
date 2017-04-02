@@ -12,6 +12,10 @@ var partials    = require('metalsmith-discover-partials');
 var permalinks  = require('metalsmith-permalinks');
 var postcss     = require('metalsmith-postcss');
 
+var handlebars  = require('handlebars');
+var layouts     = require('handlebars-layouts');
+layouts.register(handlebars);
+
 Metalsmith(__dirname)
   .metadata({
     title: "Groundwork",
