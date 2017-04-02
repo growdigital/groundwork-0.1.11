@@ -14,5 +14,12 @@ Frontend development is an _organic_ process, where you _grow_ a system of CSS b
 
 ## Who is Groundwork for?
 
+* Frontend developers who want a quick-start Modular CSS system. 
+* Frontend designers & developers who want a working system out-of-the-box.
+* Anyone who wants a starting point to learn about creating a Modular CSS system.
+
 ## Why should I use it?
 
+Because it is easy and quick! Feel free to take any ideas, structure, syntax, scaffolding, organisation etc. and re-fashion them in your own image.
+
+Obviously, you can grow your own Modular CSS system with a taskrunner like [Gulp](http://gulpjs.com/), [Grunt](https://gruntjs.com/), [Broccoli.js](http://broccolijs.com/), [Webpack](https://webpack.js.org/) etc.
