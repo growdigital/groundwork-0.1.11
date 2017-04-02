@@ -1,18 +1,12 @@
 /* ==========================================================================
-   Main nav
+   Secondary nav
    ==========================================================================*/
 
 /**
- * Main navigation list
+ * Secondary navigation list
  */
 
-.c-nav {
+.c-navsec {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
-
-
-/*.c-nav > * {
-  padding: 0 1em;
-}
-*/

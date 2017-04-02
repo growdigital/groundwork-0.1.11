@@ -47,15 +47,15 @@ eg
 
 ## SUIT CSS utilties
 
-Rather than bundle all utilties, I prefer to use just what is needed. Here’s a list of [SUIT CSS utilities](https://github.com/suitcss/utils):
+Rather than bundle all utilties, I prefer to pick and choose what is needed. Here’s a list of [SUIT CSS utilities](https://github.com/suitcss/utils) (NB SUIT CSS uses different naming convention ie `camelCase`):
 
-### [align] 0.2.2
+#### [align] 0.2.2
 * `u-alignBaseline` -Vertically align to baseline.
 * `u-alignBottom` - Vertically align to bottom.
 * `u-alignMiddle` - Vertically align to middle.
 * `u-alignTop` - Vertically align to top.
 
-### [display] 0.4.1
+#### [display] 0.4.1
 * `u-block` - Display `block`.
 * `u-hidden` - Display `none`.
 * `u-hiddenVisually` - Visually hidden but available to screenreaders.
@@ -65,20 +65,20 @@ Rather than bundle all utilties, I prefer to use just what is needed. Here’s a
 * `u-tableCell` - Display `table-cell`.
 * `u-tableRow` - Display `table-row`.
 
-### [layout] 0.4.2
+#### [layout] 0.4.2
 * `u-cf` - Contain floats (micro clearfix).
 * `u-nbfc` - Create a new block formatting context.
 * `u-nbfcAlt` - Create a new block formatting context (alternative technique).
 * `u-floatLeft` - Float left.
 * `u-floatRight` - Float right.
 
-### [link] 0.5.2
+#### [link] 0.5.2
 * `u-linkBlock` - Block-level link with no `text-decoration` for any state.
 * `u-linkClean` - A link without no `text-decoration` for any state.
 * `u-linkComplex` - Limit a link's interactive `text-decoration` underline to a
   sub-section of the link text.
 
-### [size] 0.7.2
+#### [size] 0.7.2
 * `u-sizeFit` - Make an element shrink wrap its content by floating left.
 * `u-sizeFitAlt` - Make an element shrink wrap its content by floating right.
 * `u-sizeFill` - Make an element fill the remaining space.
@@ -86,7 +86,7 @@ Rather than bundle all utilties, I prefer to use just what is needed. Here’s a
 * `u-sizeFull` - Make an element the width of its parent.
 * `u-sizeXofY` (numerous) - Specify the proportional width of an object.
 
-### [text] 0.4.2
+#### [text] 0.4.2
 * `u-textBreak` - Break strings when their length exceeds the width of their container.
 * `u-textCenter` - Center-align text.
 * `u-textLeft` - Left-align text.
@@ -95,6 +95,10 @@ Rather than bundle all utilties, I prefer to use just what is needed. Here’s a
 * `u-textKern` - Enable kerning in supporting browsers.
 * `u-textNoWrap` - Prevent wrapping at whitespace.
 * `u-textTruncate` - Truncate a single line of text, with ellipsis.
+
+### Inuit CSS objects
+
+There are also some useful [Inuit CSS objects](https://github.com/inuitcss/inuitcss/tree/develop/objects) for reference.
 
 [align]: https://github.com/suitcss/utils-align/
 [display]: https://github.com/suitcss/utils-display
