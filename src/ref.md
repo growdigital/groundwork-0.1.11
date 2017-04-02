@@ -2,7 +2,7 @@
 layout: layout.hbs
 ---
 
-# Groundwork Quick Reference
+# Quick Reference
 
 ## Build/browsersync
 
