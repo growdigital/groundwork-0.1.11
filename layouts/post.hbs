@@ -1,22 +1,12 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ description }}">
-  <link rel="stylesheet" href="/assets/styles.css">
-</head>
+{{> head}}
 <body>
-  <header>
-    <p> <a href="/">Home</a> </p>
-
-  </header>
+  {{> header}}
   <h1>{{ title }}</h1>
   <time>{{ date }}</time>
   {{{ contents }}}
 
-  <footer>
-    <p>Built with <a href="http://www.metalsmith.io/">Metalsmith</a>, deployed by <a href="https://www.netlify.com/">Netlify</a></p>
-  </footer>
+  {{> footer}}
 </body>
 </html>

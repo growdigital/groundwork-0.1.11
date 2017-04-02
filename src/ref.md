@@ -4,6 +4,23 @@ layout: layout.hbs
 
 # Groundwork Quick Reference
 
+## Build/browsersync
+
+```
+$ npm run dev
+```
+
+To just run a build:
+```
+$ make build
+```
+
+## Fractal styleguide
+
+```
+$ fractal start --sync
+```
+
 ## Syntax
 
 ```
@@ -16,6 +33,8 @@ eg
 .c-search {}
 .c-search__field {}
 .c-search--full {}
+
+.o-media {}
 ```
 
 ## SUIT CSS utilties
