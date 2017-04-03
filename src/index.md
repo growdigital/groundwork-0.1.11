@@ -2,24 +2,34 @@
 layout: layout.hbs
 ---
 
-## What is Groundwork?
+## What is it?
 
-Groundwork is a complete starter kit for writing Modular CSS. Modular CSS is a way of rationalising and organising your CSS (and other assets) into discrete and re-usable chunks.
+A quick way to start writing [modular CSS]() with a fully-fledged [static site generator]() and [styleguide]().
 
-The process is simple: individual CSS files are combined into one stylesheet.
+Modular CSS is a way of organising your CSS, and other assets, into discrete and re-usable chunks.
 
-The hard work is _how_ to organise your CSS into modules. Groundwork has strong opinions [about the structure](/organisation), using the [inverted CSS triangle]() idea by [Harry Roberts](https://twitter.com/csswizardry) and dividing modules between concrete `components` and abstract `objects`.
+## How do I start?
 
-Frontend development is an _organic_ process, where you _grow_ a system of CSS by seeing what is needed. But always with a process of **review** and **consolidation**. 
+Make sure to have [Node.js]() and [git]() installed. Wherever you build your websites:
 
-## Who is Groundwork for?
+```
+$ git clone
+$ cd groundwork
+$ npm install
+$ npm run dev
 
-* Frontend developers who want a quick-start Modular CSS system. 
-* Frontend designers & developers who want a working system out-of-the-box.
-* Anyone who wants a starting point to learn about creating a Modular CSS system.
+```
 
-## Why should I use it?
+## Why did you make it?
 
-Because it is easy and quick! Feel free to take any ideas, structure, syntax, scaffolding, organisation etc. and re-fashion them in your own image.
+Modular CSS frameworks like [inuitcss](https://github.com/inuitcss) and [BEM](https://en.bem.info) are fantastic and robust solutions but built for BIG websites. 
+
+I wanted a much simpler "boilerplate" for my own projects, hence Groundwork.
+
+## Who is it for?
+
+Frontend developers and web designers who want a quick start with mnodular CSS to build relatively small websites.
+
+---
 
 Obviously, you can grow your own Modular CSS system with a taskrunner like [Gulp](http://gulpjs.com/), [Grunt](https://gruntjs.com/), [Broccoli.js](http://broccolijs.com/), [Webpack](https://webpack.js.org/) etc.
