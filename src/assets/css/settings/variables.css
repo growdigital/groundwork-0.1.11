@@ -17,7 +17,7 @@
 
   --base_background:     white;
   --base_color:          var(--grey_text);
-  --base_fontfamily:     'Source Sans Pro', sans-serif;
+  --base_fontfamily:     'Merriweather', serif;
   --base_fontsize:       16px;
   --base_lineheight:     1.5;
   --base_linkcolor:      var(--blue_link);
