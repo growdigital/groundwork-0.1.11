@@ -36,6 +36,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'",
-    "browser_sync": "browser-sync start --server build --browser='google chrome'"
+    "browser_sync": "browser-sync start --server build --browser='google chrome'",
+    "build": "node index.js",
+    "fractal": "fractal build"
   }
 }

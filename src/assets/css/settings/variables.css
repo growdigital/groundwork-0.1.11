@@ -8,16 +8,19 @@
    * Colors
    */
 
-  --grey_text:   #333;
-  --blue_link:   #00f;
+  --grey_text: #2a3c41;
+  --blue_link: #00f;
+  --offwhite:  #fdf6e3;
+  --brown:     #794400;
+  --blue_sky:  #69cdff;
 
   /**
    * Base variables, adapated from Suit CSS
    */
 
-  --base_background:     white;
+  --base_background:     var(--offwhite);
   --base_color:          var(--grey_text);
-  --base_fontfamily:     'Merriweather', serif;
+  --base_fontfamily:     'Droid Serif', serif;
   --base_fontsize:       16px;
   --base_lineheight:     1.5;
   --base_linkcolor:      var(--blue_link);
