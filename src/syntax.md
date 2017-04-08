@@ -1,5 +1,6 @@
 ---
 layout: layout.hbs
+name: syntax
 ---
 
 # Syntax

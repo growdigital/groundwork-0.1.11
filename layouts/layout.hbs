@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 {{> head}}
-<body>
+<body class="{{ name }}">
 
   {{> header}}
   <main role="main">
@@ -12,7 +12,7 @@
     <h2>Posts</h2>
       <ol>
       {{#each this }}
-        <li><a href="{{ this.path }}">{{ this.title }}</a></li>
+        <li><a href="/{{ this.path }}">{{ this.title }}</a></li>
       {{/each}}
       </ol>
     {{/each}}

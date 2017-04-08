@@ -36,11 +36,19 @@ body {
   padding: 0;
 }
 
-
-
 .header__plain {
   background-color: white;
 }
+
+/* GitHub Ribbon */
+
+.c-github-ribbon img {
+  border: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 
 /* grid stuff */
 /*body {

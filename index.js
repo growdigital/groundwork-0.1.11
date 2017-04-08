@@ -13,8 +13,15 @@ var permalinks  = require('metalsmith-permalinks');
 var postcss     = require('metalsmith-postcss');
 
 var handlebars  = require('handlebars');
-var layouts     = require('handlebars-layouts');
-layouts.register(handlebars);
+
+// TODO: investigate using layouts -- see slack
+// var layouts     = require('handlebars-layouts');
+// layouts.register(handlebars);
+
+// TODO: investigate using handlebar helpers
+// Handlebars.registerHelper('toLowerCase', function(str) {
+//   return str.toLowerCase();
+// });
 
 Metalsmith(__dirname)
   .metadata({
@@ -27,7 +34,7 @@ Metalsmith(__dirname)
   })
   .source('./src')
   .destination('./build')
-  .clean(false)
+  .clean(true)
   .use(ignore([
     'docs/*',
     'assets/modules/**/**/*.hbs',

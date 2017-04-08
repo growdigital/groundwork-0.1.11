@@ -1,5 +1,6 @@
 ---
 layout: layout.hbs
+name: principles
 ---
 
 # Principles of Modular CSS

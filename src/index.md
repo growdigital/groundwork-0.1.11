@@ -1,5 +1,6 @@
 ---
 layout: layout.hbs
+name: home
 ---
 
 ## What is it?
@@ -24,8 +25,8 @@ $ npm run dev
 
 Modular CSS frameworks like [inuitcss](https://github.com/inuitcss) and [BEM](https://en.bem.info) are fantastic and robust but they are built for BIG websites.
 
-I wanted a much simpler “boilerplate” for my own projects, hence Groundwork.
+I wanted a much simpler “boilerplate” for my own projects.
 
 ## Who is it for?
 
-Frontend developers and web designers who want a quick start with mnodular CSS to build relatively small websites.
+Frontend developers and web designers who want a quick start with modular CSS to build relatively small websites.
