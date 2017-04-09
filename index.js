@@ -11,7 +11,7 @@ var markdown    = require('metalsmith-markdown');
 var partials    = require('metalsmith-discover-partials');
 var permalinks  = require('metalsmith-permalinks');
 var postcss     = require('metalsmith-postcss');
-
+var metadata    = require('metalsmith-writemetadata');
 var handlebars  = require('handlebars');
 
 // TODO: investigate using layouts -- see slack
@@ -41,8 +41,8 @@ Metalsmith(__dirname)
     'assets/modules/**/**/**/*.hbs',
     'assets/modules/**/**/**/**/*.hbs'
   ]))
-  // The order is important
-  // CSS
+  // Concat: the order is important
+  // Concat CSS
   .use(concat({
     files: [ 'assets/css/settings/variables.css'
             ,'normalize.css/normalize.css'
@@ -57,7 +57,7 @@ Metalsmith(__dirname)
     searchPaths: [ 'node_modules' ],
     output: 'assets/styles.css'
   }))
-  // JavaScript
+  // Concat JavaScript
   .use(concat({
     files: [
       'assets/js/*.js',
@@ -85,6 +85,9 @@ Metalsmith(__dirname)
       sortBy: 'date',
       reverse: true
     }
+  }))
+  .use(metadata({
+    pattern: ['*.md', '*.html']
   }))
   .use(markdown({
     gfm: true
