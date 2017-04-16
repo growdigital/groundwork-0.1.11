@@ -28,27 +28,59 @@ body {
 }
 
 /* header styling */
-.header__title {
+.logo__sky {
+  align-items: center;
   background-color: var(--blue_sky);
-  font-size: 3em;
-  line-height: 1em;
-  margin: 0;
-  padding: 0;
+  clip-path: inset(0 0 0.55em 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 22vh;
 }
 
-.header__plain {
+.logo__type {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
+}
+
+.logo__type a {
+  color: white !important;
+}
+
+.u-debug {
+  outline: 1px solid red !important;
+}
+
+.logo__logo {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo__title {
+  color: var(--grey);
+  font-size: 1.1em;
+}
+
+.logo__logo__logo {
+  width: 8.625em;
 }
 
 /* GitHub Ribbon */
 
-.c-github-ribbon img {
+.github-ribbon img {
   border: 0;
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 10;
 }
 
+main {
+  background-color: var(--offwhite);
+}
 
 /* grid stuff */
 /*body {

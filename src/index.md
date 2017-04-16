@@ -1,6 +1,8 @@
 ---
 layout: layout.hbs
-name: home
+pageTitle: "Groundwork: Modular CSS"
+pageClass: home
+
 ---
 
 ## What is it?

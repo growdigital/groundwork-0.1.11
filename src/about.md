@@ -1,6 +1,8 @@
 ---
 layout: layout.hbs
-name: about
+pageTitle: About Groundwork
+pageClass: about
+
 ---
 
 # About Groundwork

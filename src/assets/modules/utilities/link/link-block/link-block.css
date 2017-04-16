@@ -1,0 +1,18 @@
+/* ==========================================================================
+   Utility - link-block
+   ========================================================================== */
+
+/**
+ * Block-level link
+ *
+ * Combination of traits commonly used in vertical navigation lists.
+ * https://github.com/suitcss/utils-link/blob/master/lib/link.css#L43
+ */
+
+.u-link-block,
+.u-link-block:hover,
+.u-link-block:focus,
+.u-link-block:active {
+  display: block !important;
+  text-decoration: none !important;
+}

@@ -1,25 +1,29 @@
 ---
 layout: layout.hbs
-name: reference
+pageTitle: Quick Groundwork reference
+pageClass: ref
+
 ---
 
 # Quick Reference
 
-## Build/browsersync
+## Build, dev server & browsersync
 
 ```
 $ npm run dev
 ```
 
+## Build
+
 To just run a build:
 ```
-$ make build
+$ npm run build
 ```
 
 ## Fractal styleguide
 
 ```
-$ fractal start --sync
+$ npm run fractal
 ```
 
 Use this [development server](http://fractal.build/guide/web/server) for, er, development.
@@ -27,7 +31,7 @@ Use this [development server](http://fractal.build/guide/web/server) for, er, de
 To [export static HTML](http://fractal.build/guide/web/builder) to the build directory:
 
 ```
-$ fractal build
+$ npm run fractal
 ```
 
 ## Syntax

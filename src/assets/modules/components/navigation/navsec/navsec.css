@@ -6,7 +6,7 @@
  * Secondary navigation list
  */
 
-.c-navsec {
+.navsec {
   display: flex;
   justify-content: space-around;
 }

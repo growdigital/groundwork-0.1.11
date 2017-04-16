@@ -1,6 +1,8 @@
 ---
 layout: layout.hbs
-name: tutorial
+pageTitle:  How to use Groundwork -- coming SOON!
+pageClass: tutorial
+
 ---
 
 # Tutorial

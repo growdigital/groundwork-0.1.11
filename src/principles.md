@@ -1,6 +1,8 @@
 ---
 layout: layout.hbs
-name: principles
+pageTitle: Laying the Groundwork principles
+pageClass: principles
+
 ---
 
 # Principles of Modular CSS

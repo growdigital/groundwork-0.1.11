@@ -1,6 +1,8 @@
 ---
 layout: layout.hbs
-name: organisation
+pageTitle: CSS organisation
+pageClass: organisation
+
 ---
 
 # CSS Organisation
@@ -9,7 +11,7 @@ The CSS organisation is loosely based on [Inverted Triangle CSS](https://github.
 
 1. **Variables**: global variables and site-wide settings eg `responsive.css`
 2. **Base**: unclassed HTML elements eg `a {}`
-3. **Objects**: cosmetic-free objects, abstractions, and design patterns eg `media.css`
+3. **Objects**: cosmetic-free objects, abstractions, and design patterns eg `o-media.css`
 4. **Components**: discrete, complete chunks of UI eg `carousel.css`
 5. **Utilities**: high-specificity, very explicit selectors that trump
 everything else. Overrides and helper classes eg `.u-hiddenvisually {}`

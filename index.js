@@ -86,9 +86,9 @@ Metalsmith(__dirname)
       reverse: true
     }
   }))
-  .use(metadata({
-    pattern: ['*.md', '*.html']
-  }))
+  // .use(metadata({
+  //   pattern: ['*.md', '*.html']
+  // }))
   .use(markdown({
     gfm: true
   }))

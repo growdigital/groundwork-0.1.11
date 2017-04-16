@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>syntax</title>
+  <title>Groundwork CSS syntax</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <link rel="stylesheet" href="/assets/styles.css">
@@ -12,24 +12,22 @@
 <body class="syntax">
 
   <header role="banner">
-  
-  <a class="c-github-ribbon" href="https://github.com/growdigital/groundwork">
-    <img src="/assets/images/github-forkme.png" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png">
-  </a>
-  
-    <div class="header__title">
-      <h2><a href="/">Groundwork</a></h2>
+    <a class="github-ribbon" href="https://github.com/growdigital/groundwork">
+      <img src="/assets/images/github-forkme.png" alt="Fork me on GitHub">
+    </a>
+    <div class="logo__sky">
+      <h2 class="logo__type"><a class="u-link-block" href="/">Groundwork</a></h2>
     </div>
-    <div class="header__plain">
-      <img src="/assets/images/logo.svg" alt="Groundwork logo">
-      <h3>Modular CSS Starter Kit. It rocks.</h3>
+    <div class="logo__logo">
+      <img class="logo__logo__logo" src="/assets/images/logo.svg" alt="Groundwork logo">
+      <h3 class="logo__title">Modular CSS Starter Kit. It rocks.</h3>
     </div>
     <nav role="navigation">
-      <ol class="c-nav o-list-bare" >
-        <li><a href="/" title="">Home</a></li>
-        <li><a href="/principles/" title="">Principles</a></li>
-        <li><a href="/organisation/" title="">Organisation</a></li>
-        <li><a href="/syntax/" title="">Syntax</a></li>
+      <ol class="nav o-list-bare" >
+        <li><a class="home" href="/" title="">Home</a></li>
+        <li><a class="principles" href="/principles/" title="">Principles</a></li>
+        <li><a class="organisation" href="/organisation/" title="">Organisation</a></li>
+        <li><a class="syntax" href="/syntax/" title="">Syntax</a></li>
       </ol>
     </nav>
   </header>
@@ -57,12 +55,13 @@
 <h2 id="namespacing">Namespacing</h2>
 <p>To add yet more clarity to the <code>block__element--modifier</code> convention, we can use “namespacing”: prefixing a module with an identifying character. This makes it easy to see what type of module we’re dealing with:</p>
 <pre><code>o-object
-c-component
+component
 u-utility
 js-javascript
 _-hack
 is-state, has-state
-</code></pre><p>For example, <code>.c-button {}</code>, <code>.o-media {}</code>. <code>u-cf</code>, <code>_-messy-hack</code>.</p>
+</code></pre><p>For example, <code>.button {}</code>, <code>.o-media {}</code>. <code>u-cf</code>, <code>_-messy-hack</code>.</p>
+<p>As you may have guessed, the odd one is out <strong>component</strong> – no <code>c-</code> prefix here, because components are the most common type of module, and if it doesn’t have a prefix, it’ll be a component.</p>
 <p>Taken from <a href="https://twitter.com/csswizardry">Harry Roberts</a>’ <a href="https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/">More transparent UI code with namespaces</a>, <a href="https://twitter.com/necolas">Nicholas Gallagher</a>’s <a href="https://github.com/suitcss/utils">SUIT CSS utilities</a> and <a href="https://twitter.com/snookca">Jonathan Snook</a>’s <a href="https://smacss.com/book/type-state">SMACSS State Rules</a>.</p>
 <h2 id="comments">Comments</h2>
 <pre><code>/* ==========================================================================
@@ -103,6 +102,7 @@ is-state, has-state
       <ol>
         <li><a href="/./posts/screencast-of-installation">Screencast of installation!</a></li>
         <li><a href="/./posts/twitter-a-go-go">Twitter A Go Go</a></li>
+        <li><a href="/./posts/enough-of-this-prefix-madness">Enough of this &#x60;prefix-&#x60; madness!</a></li>
         <li><a href="/./posts/animated-gifs-are-in-production">Animated GIFs are in production</a></li>
         <li><a href="/./posts/trending-on-github">Trending on GitHub</a></li>
         <li><a href="/./posts/semver-setup">semver setup</a></li>
@@ -117,10 +117,11 @@ is-state, has-state
   </aside>
 <footer role="contentinfo">
   <nav role="navigation">
-    <ol class="c-navsec o-list-bare">
+    <ol class="navsec o-list-bare">
       <li><a href="/ref/" title="Link to quick reference">Reference</a></li>
       <li><a href="/tutorial/" title="">Tutorial</a></li>
       <li><a href="/about/">About</a></li>
+      <li><a href="/styleguide/">Styleguide</a></li>
     </ol>
   </nav>
   <p>Built by <a href="https://www.growdigital.org/">Jake Rayson</a> with <a href="http://www.metalsmith.io/">Metalsmith</a>, deployed by <a href="https://www.netlify.com/">Netlify</a></p>

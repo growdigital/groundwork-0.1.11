@@ -1,6 +1,8 @@
 ---
 layout: layout.hbs
-name: syntax
+pageTitle: Groundwork CSS syntax
+pageClass: syntax
+
 ---
 
 # Syntax
@@ -41,14 +43,16 @@ To add yet more clarity to the `block__element--modifier` convention, we can use
 
 ```
 o-object
-c-component
+component
 u-utility
 js-javascript
 _-hack
 is-state, has-state
 ```
 
-For example, `.c-button {}`, `.o-media {}`. `u-cf`, `_-messy-hack`.
+For example, `.button {}`, `.o-media {}`. `u-cf`, `_-messy-hack`.
+
+As you may have guessed, the odd one is out **component** – no `c-` prefix here, because components are the most common type of module, and if it doesn’t have a prefix, it’ll be a component.
 
 Taken from [Harry Roberts](https://twitter.com/csswizardry)’ [More transparent UI code with namespaces](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/), [Nicholas Gallagher](https://twitter.com/necolas)’s [SUIT CSS utilities](https://github.com/suitcss/utils) and [Jonathan Snook](https://twitter.com/snookca)’s [SMACSS State Rules](https://smacss.com/book/type-state).
 

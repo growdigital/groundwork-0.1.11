@@ -8,22 +8,30 @@
    * Colors
    */
 
-  --grey_text: #2a3c41;
-  --blue_link: #00f;
-  --offwhite:  #fdf6e3;
-  --brown:     #794400;
-  --blue_sky:  #69cdff;
+  --offwhite:   #fdf6e3;
+  --grey:       #b4a99f;
+  --blue_sky:   #69cdff;
+  --base_text:  #2a3c41;
+
+  --yellow:     #ffac00;
+  --orange:     #f3561d;
+  --brown:      #794400;
+  --brown-dark: #603600;
+
+  --blue_link:  #00f;
+
+  /* TODO: visited, highlighted, selected border */
 
   /**
    * Base variables, adapated from Suit CSS
    */
 
-  --base_background:     var(--offwhite);
-  --base_color:          var(--grey_text);
+  --base_background:     white;
+  --base_color:          var(--base_text);
   --base_fontfamily:     'Droid Serif', serif;
   --base_fontsize:       16px;
   --base_lineheight:     1.5;
   --base_linkcolor:      var(--blue_link);
-  --base_linkcolorhover: var(--grey_text);
+  --base_linkcolorhover: var(--base_text);
 
 }
