@@ -25,7 +25,7 @@ A note on nomenclature: module, object and component.
 * **HTML elements must not be used in CSS selectors**. This means classes can be applied to _any_ element eg `<input class="button" type="submit">` and `<button class="button">pushme</button>`.
 * **Only use the module for one bit of functionality**. This is the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle).
 * **Class names should be _functional_ & independent of content**. Again, this makes a module _re-usable_ in different contexts.
-* Modules must have unique names
+* Modules must have **unique names**.
 
 ## Visibility
 
@@ -61,3 +61,4 @@ This just scratches the surface, there is a wealth of information out there:
 * [Scalable and Modular Architecture for CSS](https://smacss.com/) by [Jonathan Snook](https://twitter.com/snookca)
 * [BEM Methodology](https://en.bem.info/) (Block Element Modifier) by [Yandex](https://www.yandex.com/) 
 * [CSS Wizardry blog](https://csswizardry.com/archive/) by [Harry Roberts](https://twitter.com/csswizardry)
+* [BEM Resources](https://github.com/sturobson/BEM-resources) (awesome) by [Stu Robson](http://www.alwaystwisted.com/)
