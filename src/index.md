@@ -25,7 +25,7 @@ $ npm run dev
 
 ## Why did you make it?
 
-Modular CSS frameworks like [inuitcss](https://github.com/inuitcss) and [BEM](https://en.bem.info) are fantastic and robust but they are built for BIG websites.
+Modular CSS frameworks like [SUITCSS](http://suitcss.github.io/), [inuitcss](https://github.com/inuitcss) and [BEM](https://en.bem.info) are fantastic and robust but they are built for BIG websites.
 
 I wanted a much simpler “boilerplate” for my own projects.
 
