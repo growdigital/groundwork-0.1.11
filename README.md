@@ -6,9 +6,14 @@
 
 ![Groundwork logo](build/assets/images/logo.png)
 
+* Out-of-the-box Modular CSS website – combines individual modular CSS files into one stylesheet
+* Vanilla HTML, CSS and JS
+* Easily modify with the [plugin](https://github.com/metalsmith/awesome-metalsmith/blob/master/PLUGINS.md) of your choice
+* Proof of concept – Modular CSS _can_ be this easy
+
 ## Features
 
-* Combines individual modular CSS files into one stylesheet
+* C
 * [Modified](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) [BEM](https://en.bem.info/) syntax for extendable CSS eg `.c-button--big`
 * [PostCSS-cssnext](http://cssnext.io/) plugin for using latest features in plain CSS
 * [Metalsmith](http://www.metalsmith.io/) build process, from `src` to `build`
