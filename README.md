@@ -13,7 +13,6 @@
 
 ## Features
 
-* C
 * [Modified](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) [BEM](https://en.bem.info/) syntax for extendable CSS eg `.c-button--big`
 * [PostCSS-cssnext](http://cssnext.io/) plugin for using latest features in plain CSS
 * [Metalsmith](http://www.metalsmith.io/) build process, from `src` to `build`
