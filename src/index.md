@@ -15,7 +15,7 @@ Modular CSS is a way of organising your CSS, and other assets, into discrete and
 
 Make sure to have [Node.js](https://nodejs.org/en/download/) and [git](https://git-scm.com/) installed. Run these commands in your terminal wherever you build your websites:
 
-```
+```bash
 $ git clone
 $ cd groundwork
 $ npm install

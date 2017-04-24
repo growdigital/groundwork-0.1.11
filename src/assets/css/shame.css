@@ -22,6 +22,7 @@ code, pre {
     monospace
 }
 
+
 /* TODO: set this in base */
 body {
   margin: 0;
@@ -84,40 +85,8 @@ body {
 
 main {
   background-color: var(--offwhite);
-}
-
-/* grid stuff */
-/*body {
-  display: grid;
-  margin: 0;
-  padding: 0;
-}
-
-body > * {
-  background-color: navajowhite;
-
-}
-*/
-
-main {
   padding: 1em;
 }
-
-/*lobotomised owl selector */
-/* can we get it to work? just in main? */
-/** + * {
-  margin-top: 1.5em;
-  outline: 1px solid red;
-}
-*/
-
-/* hm, indented paras */
-
-/*p + p {
-  margin-top: 0;
-  text-indent: 2em;
-}
-*/
 
 .smallprint {
   background-color: black;
