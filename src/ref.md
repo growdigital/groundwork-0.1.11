@@ -9,20 +9,20 @@ pageClass: ref
 
 ## Build, dev server & browsersync
 
-```
+```bash
 $ npm run dev
 ```
 
 ## Build
 
 To just run a build:
-```
+```bash
 $ npm run build
 ```
 
 ## Fractal styleguide
 
-```
+```bash
 $ npm run fractal
 ```
 
@@ -30,19 +30,19 @@ Use this [development server](http://fractal.build/guide/web/server) for, er, de
 
 To [export static HTML](http://fractal.build/guide/web/builder) to the build directory:
 
-```
+```bash
 $ npm run fractal
 ```
 
 ## Syntax
 
-```
+```css
 .block {}
 .block__element {}
 .block--modifier {}
 ```
 eg
-```
+```css
 .c-search {}
 .c-search__field {}
 .c-search--full {}

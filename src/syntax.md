@@ -11,7 +11,7 @@ pageClass: syntax
 
 In short, [this](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/):
 
-```
+```css
 .block {}
 .block__element {}
 .block--modifier {}
@@ -21,7 +21,7 @@ The `block` is the module (object or component), the `block__element` is a _desc
 
 For example:
 
-```
+```css
 .search {}
 .search__field {}
 .search--full {}
@@ -41,16 +41,16 @@ For example:
 
 To add yet more clarity to the `block__element--modifier` convention, we can use “namespacing”: prefixing a module with an identifying character. This makes it easy to see what type of module we’re dealing with:
 
-```
-o-object
-component
-u-utility
-js-javascript
-_-hack
-is-state, has-state
+```css
+.o-object {}
+.component {}
+.u-utility {}
+.js-javascript {}
+._-hack {}
+.is-state {}, has-state {}
 ```
 
-For example, `.button {}`, `.o-media {}`. `u-cf`, `_-messy-hack`.
+For example, `.button {}`, `.o-media {}`, `.u-cf`, `_-messy-hack`.
 
 As you may have guessed, the odd one is out **component** – no `c-` prefix here, because components are the most common type of module, and if it doesn’t have a prefix, it’ll be a component.
 
@@ -58,7 +58,7 @@ Taken from [Harry Roberts](https://twitter.com/csswizardry)’ [More transparent
 
 ## Comments
 
-```
+```css
 /* ==========================================================================
    Section comment block
    ========================================================================== */

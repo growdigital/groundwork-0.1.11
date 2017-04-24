@@ -27,7 +27,7 @@ Make sure to have [Node.js](https://nodejs.org/en/) installed.
 
 #### Clone repo, install packages
 
-```
+```bash
 $ git clone git@github.com:growdigital/groundwork.git
 $ cd groundwork
 $ npm install
@@ -37,7 +37,7 @@ $ npm install
 
 Start the build, watch and browsersync script:
 
-```
+```bash
 $ npm run dev 
 ```
 
@@ -45,14 +45,14 @@ $ npm run dev
 
 To start the Fractal styleguide:
 
-```
+```bash
 $ fractal start --sync
 ```
 
 If you just want to build the site without previewing, run:
 
-```
-$ make build
+```bash
+$ npm run build
 ```
 
 ## Organisation of CSS

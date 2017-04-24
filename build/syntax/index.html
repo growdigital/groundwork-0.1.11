@@ -40,15 +40,17 @@
     <h1 id="syntax">Syntax</h1>
 <h2 id="modified-bem-syntax">Modified BEM syntax</h2>
 <p>In short, <a href="https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/">this</a>:</p>
-<pre><code>.block {}
+<pre><code class="lang-css">.block {}
 .block__element {}
 .block--modifier {}
-</code></pre><p>The <code>block</code> is the module (object or component), the <code>block__element</code> is a <em>descendant</em> of that module and the <code>block--modifier</code> is a variation on that module.</p>
+</code></pre>
+<p>The <code>block</code> is the module (object or component), the <code>block__element</code> is a <em>descendant</em> of that module and the <code>block--modifier</code> is a variation on that module.</p>
 <p>For example:</p>
-<pre><code>.search {}
+<pre><code class="lang-css">.search {}
 .search__field {}
 .search--full {}
-</code></pre><h2 id="bem-ground-rules">BEM ground rules</h2>
+</code></pre>
+<h2 id="bem-ground-rules">BEM ground rules</h2>
 <ul>
 <li>Hyphen to separate words in long names &amp; two underscores to separate the name of the block from the name of the element:<br><code>block-name__element-name</code></li>
 <li>CSS class for a block coincides with its block name</li>
@@ -58,17 +60,18 @@
 </ul>
 <h2 id="namespacing">Namespacing</h2>
 <p>To add yet more clarity to the <code>block__element--modifier</code> convention, we can use “namespacing”: prefixing a module with an identifying character. This makes it easy to see what type of module we’re dealing with:</p>
-<pre><code>o-object
-component
-u-utility
-js-javascript
-_-hack
-is-state, has-state
-</code></pre><p>For example, <code>.button {}</code>, <code>.o-media {}</code>. <code>u-cf</code>, <code>_-messy-hack</code>.</p>
+<pre><code class="lang-css">.o-object {}
+.component {}
+.u-utility {}
+.js-javascript {}
+._-hack {}
+.is-state {}, has-state {}
+</code></pre>
+<p>For example, <code>.button {}</code>, <code>.o-media {}</code>, <code>.u-cf</code>, <code>_-messy-hack</code>.</p>
 <p>As you may have guessed, the odd one is out <strong>component</strong> – no <code>c-</code> prefix here, because components are the most common type of module, and if it doesn’t have a prefix, it’ll be a component.</p>
 <p>Taken from <a href="https://twitter.com/csswizardry">Harry Roberts</a>’ <a href="https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/">More transparent UI code with namespaces</a>, <a href="https://twitter.com/necolas">Nicholas Gallagher</a>’s <a href="https://github.com/suitcss/utils">SUIT CSS utilities</a> and <a href="https://twitter.com/snookca">Jonathan Snook</a>’s <a href="https://smacss.com/book/type-state">SMACSS State Rules</a>.</p>
 <h2 id="comments">Comments</h2>
-<pre><code>/* ==========================================================================
+<pre><code class="lang-css">/* ==========================================================================
    Section comment block
    ========================================================================== */
 
@@ -97,7 +100,8 @@ is-state, has-state
  */
 
 /* Basic comment */
-</code></pre><p>I <em>think</em> these are from <a href="http://suitcss.github.io/">SUIT CSS</a>!</p>
+</code></pre>
+<p>I <em>think</em> these are from <a href="http://suitcss.github.io/">SUIT CSS</a>!</p>
 <h2 id="credits">Credits</h2>
 <p>Modified BEM syntax mostly from <a href="https://twitter.com/csswizardry">Harry Roberts</a>’ <a href="https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/">MindBEMding – getting your head ’round BEM syntax</a> and <a href="https://twitter.com/necolas">Nicolas Gallagher</a>’s <a href="https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md">SUIT CSS naming conventions</a>. As the kids used to say in the 1990s, <em>respec’</em></p>
 

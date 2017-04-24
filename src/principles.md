@@ -35,7 +35,7 @@ To this end, **use a styleguide**, from the beginning. Groundwork comes bundled 
 
 To start Fractal locally:
 
-```
+```bash
 $ fractal start --sync
 ```
 
