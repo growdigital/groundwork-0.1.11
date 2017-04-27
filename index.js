@@ -45,6 +45,7 @@ Metalsmith(__dirname)
             ,'assets/modules/components/**/**/*.css'
             ,'assets/modules/utilities/**/**/*.css'
             ,'assets/css/shame.css'
+            // Test CSS, uncomment when you want to test
             // ,'assets/css/test/*.css'
     ],
     searchPaths: [ 'node_modules' ],
@@ -66,11 +67,11 @@ Metalsmith(__dirname)
       'postcss-cssnext': {}
     }
   }))
-  .use(cleanCSS({
-    cleanCSS: {
-      rebase: true
-    }
-  }))
+  // .use(cleanCSS({
+  //   cleanCSS: {
+  //     rebase: true
+  //   }
+  // }))
   .use(drafts())
   .use(collections({
     posts: {
