@@ -39,6 +39,7 @@ Metalsmith(__dirname)
     files: [ 'assets/css/settings/variables.css'
             ,'normalize.css/normalize.css'
             ,'assets/css/settings/base.css'
+            ,'assets/css/settings/typography.css'
             ,'assets/css/settings/responsive.css'
             ,'assets/modules/objects/**/*.css'
             ,'assets/modules/components/**/**/*.css'
