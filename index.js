@@ -11,6 +11,7 @@ var markdown    = require('metalsmith-markdown');
 var partials    = require('metalsmith-discover-partials');
 var permalinks  = require('metalsmith-permalinks');
 var postcss     = require('metalsmith-postcss');
+var prism       = require('metalsmith-prism');
 var metadata    = require('metalsmith-writemetadata');
 var handlebars  = require('handlebars');
 
@@ -91,6 +92,9 @@ Metalsmith(__dirname)
   // }))
   .use(markdown({
     gfm: true
+  }))
+  .use(prism({
+    lineNumbers: true
   }))
   .use(partials({
     directory: 'partials',

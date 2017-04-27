@@ -13,10 +13,10 @@ Modular CSS is a way of organising your CSS, and other assets, into discrete and
 
 ## How do I start?
 
-Make sure to have [Node.js](https://nodejs.org/en/download/) and [git](https://git-scm.com/) installed. Run these commands in your terminal wherever you build your websites:
+Make sure to have [Node.js](https://nodejs.org/en/download/) and [git](https://git-scm.com/) installed. Run these commands in your terminal in whichever directory you build your websites:
 
 ```bash
-$ git clone
+$ git clone git@github.com:growdigital/groundwork.git
 $ cd groundwork
 $ npm install
 $ npm run dev
@@ -25,9 +25,7 @@ $ npm run dev
 
 ## Why did you make it?
 
-Modular CSS frameworks like [SUITCSS](http://suitcss.github.io/), [inuitcss](https://github.com/inuitcss) and [BEM](https://en.bem.info) are fantastic and robust but they are built for BIG websites.
-
-I wanted a much simpler “boilerplate” for my own projects.
+Modular CSS frameworks like [SUITCSS](http://suitcss.github.io/), [inuitcss](https://github.com/inuitcss) and [BEM](https://en.bem.info) are fantastic and robust but they are built for BIG websites. I wanted a much simpler “boilerplate” for my own projects.
 
 ## Who is it for?
 

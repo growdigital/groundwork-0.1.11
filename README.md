@@ -6,7 +6,8 @@
 
 ![Groundwork logo](build/assets/images/logo.png)
 
-* Out-of-the-box Modular CSS website – combines individual modular CSS files into one stylesheet
+* Out-of-the-box Modular CSS website
+* Combine individual modular CSS files into one stylesheet
 * Vanilla HTML, CSS and JS
 * Easily modify with the [plugin](https://github.com/metalsmith/awesome-metalsmith/blob/master/PLUGINS.md) of your choice
 * Proof of concept – Modular CSS _can_ be this easy
