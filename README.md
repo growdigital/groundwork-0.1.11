@@ -61,7 +61,7 @@ $ npm run build
 1. **Variables**: global variables and site-wide settings eg `responsive.css`
 2. **Base**: unclassed HTML elements eg `a {}`
 3. **Objects**: cosmetic-free objects, abstractions, and design patterns eg `o-media.css`
-4. **Components**: discrete, complete chunks of UI eg `c-carousel.css`
+4. **Components**: discrete, complete chunks of UI eg `carousel.css`
 5. **Utilities**: high-specificity, very explicit selectors that trump
 everything else. Overrides and helper classes eg `.u-hiddenvisually {}`
 6. **Shameful**: _temporarily disorganised_ CSS eg `._-bloody-hack {}` lives in `shame.css`
