@@ -7,13 +7,19 @@
  */
 
 /* Headings */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
+  color: var(--brown);
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
 
+h1 {
+  font-size: 2em;
 }
 
 /* Faux utility headings */
-.u-h1, .u-h2, .u-h3, .u-h4 {
-
+.u-h1 {
+  font-size: 2em !important;
 }
 
 /* Code */

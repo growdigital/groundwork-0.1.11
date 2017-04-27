@@ -535,13 +535,19 @@ table {
  */
 
 /* Headings */
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
+  color: #794400;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+}
 
+h1 {
+  font-size: 2em;
 }
 
 /* Faux utility headings */
-.u-h1, .u-h2, .u-h3, .u-h4 {
-
+.u-h1 {
+  font-size: 2em !important;
 }
 
 /* Code */
@@ -590,6 +596,75 @@ code, pre {
   top: 0;
   z-index: 10;
 }
+
+
+/* ==========================================================================
+   Main nav
+   ==========================================================================*/
+
+/**
+ * Main navigation list
+ */
+
+.nav {
+  background-color: #603600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0.8em 2em 0.7em;
+}
+
+.nav a {
+  border-radius: 0.2em;
+  padding: 0.2em 0.8em 0.3em;
+  text-decoration: none;
+}
+
+.home .nav .home,
+.principles .nav .principles,
+.organisation .nav .organisation,
+.syntax .nav .syntax
+{
+  background-color: #502601;
+}
+
+.home .nav a:hover {
+  background-color: #fdf6e3;
+  color: #2a3c41;
+
+}
+
+.nav a,
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  color: white;
+}
+
+/*.nav > * {
+  padding: 0 1em;
+}
+*/
+
+/* ==========================================================================
+   Secondary nav
+   ==========================================================================*/
+
+/**
+ * Secondary navigation list
+ */
+
+.navsec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 
 
 /* ==========================================================================
@@ -694,75 +769,6 @@ h1 {
 
 
 /* ==========================================================================
-   Main nav
-   ==========================================================================*/
-
-/**
- * Main navigation list
- */
-
-.nav {
-  background-color: #603600;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: 'Rubik', sans-serif;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  padding: 0.8em 2em 0.7em;
-}
-
-.nav a {
-  border-radius: 0.2em;
-  padding: 0.2em 0.8em 0.3em;
-  text-decoration: none;
-}
-
-.home .nav .home,
-.principles .nav .principles,
-.organisation .nav .organisation,
-.syntax .nav .syntax
-{
-  background-color: #502601;
-}
-
-.home .nav a:hover {
-  background-color: #fdf6e3;
-  color: #2a3c41;
-
-}
-
-.nav a,
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-  color: white;
-}
-
-/*.nav > * {
-  padding: 0 1em;
-}
-*/
-
-/* ==========================================================================
-   Secondary nav
-   ==========================================================================*/
-
-/**
- * Secondary navigation list
- */
-
-.navsec {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-
-
-/* ==========================================================================
    Utilities - display
    ========================================================================== */
 
@@ -839,4 +845,5 @@ h1 {
 .u-debug {
   outline: 1px solid red !important;
 }
+
 
