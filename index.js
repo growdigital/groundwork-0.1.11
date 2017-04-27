@@ -15,15 +15,6 @@ var prism       = require('metalsmith-prism');
 var metadata    = require('metalsmith-writemetadata');
 var handlebars  = require('handlebars');
 
-// TODO: investigate using layouts -- see slack
-// var layouts     = require('handlebars-layouts');
-// layouts.register(handlebars);
-
-// TODO: investigate using handlebar helpers
-// Handlebars.registerHelper('toLowerCase', function(str) {
-//   return str.toLowerCase();
-// });
-
 Metalsmith(__dirname)
   .metadata({
     site: {
@@ -87,6 +78,7 @@ Metalsmith(__dirname)
       reverse: true
     }
   }))
+  // For debugging, use metadata
   // .use(metadata({
   //   pattern: ['*.md', '*.html']
   // }))
@@ -100,7 +92,7 @@ Metalsmith(__dirname)
     directory: 'partials',
     pattern: /\.hbs$/
   }))
-  // .use(feed({collection: 'posts'}))
+  .use(feed({collection: 'posts'}))
   .use(dateFormat({
     key: 'date',
     format: 'ddd D MMM YYYY'

@@ -1,0 +1,12 @@
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer__small {
+  background-color: black;
+  color: white;
+  font-family: Rubik;
+  font-size: small;
+  padding: 1em;
+  text-align: center;
+}

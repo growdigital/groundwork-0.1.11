@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Groundwork]]></title><description><![CDATA[Modular CSS Starter Kit. It rocks.]]></description><link>https://www.groundwork.rocks/</link><generator>metalsmith-feed</generator><lastBuildDate>Thu, 27 Apr 2017 18:39:22 GMT</lastBuildDate><atom:link href="https://www.groundwork.rocks/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Jake Rayson]]></author><item><title><![CDATA[Enough of this `prefix-` madness!]]></title><description><![CDATA[<p><a href="https://twitter.com/csswizardry">CSSWizardry</a> <a href="https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/">writes about</a> using the prefix <code>c-</code> for <strong>component</strong> modules.</p>
+<p>I find it a bit too cluttered, so I have decided not to use it for components.</p>
+<p>Components are “discrete, complete chunks of UI”, and they are commonplace. So the rule is, if it doesn’t have a prefix, it must be a component type of module.</p>
+]]></description><link>https://www.groundwork.rocks/posts/170316-enough-prefix-madness.md</link><guid isPermaLink="true">https://www.groundwork.rocks/posts/170316-enough-prefix-madness.md</guid><dc:creator><![CDATA[Jake Rayson]]></dc:creator><pubDate>Tue, 18 Apr 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Screencast of installation!]]></title><description><![CDATA[<p>The animated GIF with <a href="http://www.telestream.net/screenflow/overview.htm">Screenflow</a> turned out to be 1.8MB, which is a bit big for what is essentially these commands:</p>
+<pre><code>$ git clone git@github.com:growdigital/groundwork.git
+$ cd groundwork
+$ npm install
+$ npm run dev
+</code></pre><p>So, I made a <strong>plain text</strong> screencast with the fabulous <a href="https://asciinema.org">asciinema</a>:</p>
+<script type="text/javascript" src="https://asciinema.org/a/dstnak4qnlo13kgfc3wrvpfz2.js" id="asciicast-dstnak4qnlo13kgfc3wrvpfz2" async data-speed="2" data-theme="solarized-dark"></script>
+
+<p>It’s double speed and a <em>bit</em> boring. But the good news is that, if you have <a href="https://nodejs.org/en/download/">Node.js</a> installed, you can have a Modular CSS website running in <strong>1 minute and 30 seconds</strong>. Pretty cool.</p>
+<p>There is a way to <a href="https://asciinema.org/docs/faq">edit recorded asciicasts</a> but I haven’t figured it out yet. </p>
+]]></description><link>https://www.groundwork.rocks/posts/170331-screencast.md</link><guid isPermaLink="true">https://www.groundwork.rocks/posts/170331-screencast.md</guid><dc:creator><![CDATA[Jake Rayson]]></dc:creator><pubDate>Sat, 01 Apr 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Twitter A Go Go]]></title><description><![CDATA[<p>A Twitter account for Groundwork has <strong>just been set up</strong>!</p>
+<p><a href="https://twitter.com/GroundworkRocks">GroundworkRocks</a></p>
+<p>As soon as I get the <code>metalsmith-feed</code> plugin working, I’ll pipe out the posts to the Twitter account. I’ll also pipe them out to <a href="https://twitter.com/growdigital">growdigital</a>. Coming at you from all sides. Oh yes.</p>
+]]></description><link>https://www.groundwork.rocks/posts/170328-twitter-a-go-go.md</link><guid isPermaLink="true">https://www.groundwork.rocks/posts/170328-twitter-a-go-go.md</guid><dc:creator><![CDATA[Jake Rayson]]></dc:creator><pubDate>Sat, 01 Apr 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Animated GIFs are in production]]></title><description><![CDATA[<p>How hard can it be to make an animated GIF showing how to install Groundwork?</p>
+<p>PRETTY BLOODY HARD</p>
+<p>is the answer.</p>
+<p>I’d previously tooled up with <a href="https://www.telestream.net/screenflow/overview.htm">Screenflow</a> for a contract that never flew, so I’ve been trying my hand at this new fangled screen-castering malarkey. What a lot of messing about.</p>
+<p>Anyway, the good news is that I’ll put an animated GIFs together that is less than 108MB in size and post it on the website tomorrow. Honest.</p>
+]]></description><link>https://www.groundwork.rocks/posts/170329-animated-gif-in-production.md</link><guid isPermaLink="true">https://www.groundwork.rocks/posts/170329-animated-gif-in-production.md</guid><dc:creator><![CDATA[Jake Rayson]]></dc:creator><pubDate>Wed, 29 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Trending on GitHub]]></title><description><![CDATA[<p>The trouble with Open Source software is that you just can’t give it away.</p>
+<p><strong>Money</strong> is only one part of the equation, of more importance is the investment of <strong>time</strong> and <strong>effort</strong>. </p>
+<p>Groundwork is <a href="https://github.com/growdigital/groundwork/blob/0.2.0/LICENSE">Open Source software</a> (dual licensed under <a href="https://choosealicense.com/licenses/gpl-3.0/">GPL</a> and <a href="https://choosealicense.com/licenses/mit/">MIT</a>), so that puts the money to one side. </p>
+<p>I’ve been reading <a href="https://medium.freecodecamp.com/how-we-got-a-2-year-old-repo-trending-on-github-in-just-48-hours-12151039d78b">How we got our 2-year-old repo trending on GitHub in just 48 hours</a> and there’s some good advice in there, namely <strong>make it easy for people to understand and use</strong>. Reduce the time and effort people have to spend. Reduce friction.</p>
+<p>To that end, I’ve rewritten the <a href="https://github.com/growdigital/groundwork/blob/0.2.0/README.md">README</a> and created a <a href="https://groundworkrocks.slack.com/">Slack channel</a>. My arbitary but achievable aim is to have <strong>100 stars</strong> for the project by the end of the year. So, please feel free to <a href="https://github.com/growdigital/groundwork">give Groundwork a star</a> :)</p>
+]]></description><link>https://www.groundwork.rocks/posts/170328-hot-hot-hot.md</link><guid isPermaLink="true">https://www.groundwork.rocks/posts/170328-hot-hot-hot.md</guid><dc:creator><![CDATA[Jake Rayson]]></dc:creator><pubDate>Tue, 28 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[semver setup]]></title><description><![CDATA[<p>I just set up <a href="https://en.wikipedia.org/wiki/Software_versioning#Degree_of_compatibility">semantic versioning</a> for <a href="/">Groundwork</a> with <a href="http://semver.org/">semver.org</a>, using the <a href="http://browsenpm.org/package.json">interactive guide to <code>package.json</code></a> as a guide. I like semantic versioning, it appeals to my tidy side. Also, it makes a great deal of sense for any sane method of development, web or whatever. </p>
+<p>Along the same lines, I can also heartily recommend <a href="https://12factor.net/">The Twelve-Factor App</a>, casts a big shining light on all this plugin semantic versioning for <a href="http://www.metalsmith.io/">Metalsmith</a>. </p>
+]]></description><link>https://www.groundwork.rocks/posts/170325-semver.md</link><guid isPermaLink="true">https://www.groundwork.rocks/posts/170325-semver.md</guid><dc:creator><![CDATA[Jake Rayson]]></dc:creator><pubDate>Sat, 25 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Front Matter snippet for Sublime Text in Metalsmith post]]></title><description><![CDATA[<p>I made a quick snippet to add the <a href="https://jekyllrb.com/docs/frontmatter/">Front Matter</a> to <a href="http://www.metalsmith.io/">Metalsmith</a> blog posts, using the <a href="">Sublime Text Unofficial Documentation</a> and this <a href="http://stackoverflow.com/questions/13922174/defining-scope-for-custom-sublime-text-2-snippets#14682280">handy reference</a> for defining scope in Sublime. This is my result:</p>
+<pre><code>&lt;snippet&gt;
+  &lt;content&gt;&lt;![CDATA[
+---
+title: $1 
+date: ${2:2017-04-01}
+layout: post.hbs
+collections: posts
+draft: true
+---
+
+
+]]&gt;&lt;/content&gt;
+  &lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&gt;
+    &lt;tabTrigger&gt;fm&lt;/tabTrigger&gt;
+  &lt;!-- Optional: Set a scope to limit where the snippet will trigger --&gt;
+    &lt;scope&gt;text.html.markdown&lt;/scope&gt;
+&lt;/snippet&gt;
+</code></pre><p>Tab to move between title, date and the beginning of the post. </p>
+<p>Type <code>fm</code> then hit the tab key to expand.</p>
+<p>It would be nice to insert the date with a keystroke. There’s a <a href="https://github.com/FichteFoll/InsertDate">plugin for that</a>, maybe tomorrow…</p>
+]]></description><link>https://www.groundwork.rocks/posts/170325-metalsmith-snippet.md</link><guid isPermaLink="true">https://www.groundwork.rocks/posts/170325-metalsmith-snippet.md</guid><dc:creator><![CDATA[Jake Rayson]]></dc:creator><pubDate>Sat, 25 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[hbs or hbt – all the little detail]]></title><description><![CDATA[<p>I wasn’t sure if the file extension for <a href="http://handlebarsjs.com/">Handlebars</a> is <code>.hbt</code> or <code>.hbs</code>, so I asked on the friendly <a href="http://www.metalsmith.io/">Metalsmith</a> <a href="https://metalsmith.slack.com/">Slack channel</a>, and an answer came back from Woody: </p>
+<blockquote>
+<p>I think it&#39;s <code>.hbs</code> because by definition handlebars is a template so <code>.hbt</code> is a but of a misnomer.</p>
+</blockquote>
+<p>It’s all these little details that take the time. And I haven’t even started writing the documentation.</p>
+]]></description><link>https://www.groundwork.rocks/posts/170324-hbs-or-hbt.md</link><guid isPermaLink="true">https://www.groundwork.rocks/posts/170324-hbs-or-hbt.md</guid><dc:creator><![CDATA[Jake Rayson]]></dc:creator><pubDate>Fri, 24 Mar 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[groundwork.rocks soft launch!]]></title><description><![CDATA[<p><a href="https://github.com/growdigital/groundwork/">Groundwork</a> is a Module CSS Starter Kit. Make sure to have <a href="https://nodejs.org/en/">Node.js</a> installed, download the repo, then just run this in a terminal:</p>
+<pre><code>$ npm run dev
+</code></pre><p>It’s <em>so</em> new that it doesn’t even have <a href="">semantic versioning</a> yet.</p>
+<p>The website <a href="https://www.groundwork.rocks/">www.groundwork.rocks</a> unofficially went live yesterday. I registered the domain with the excellent <a href="https://iwantmyname.com/">iwantmyname.com</a> folks, and it’s deployed on <a href="https://www.netlify.com">Netlify</a>. There’s even a badge for it:</p>
+<p><a href="https://www.netlify.com"><img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify"></a></p>
+<p>Soon as I get everything work just about, I’ll post a message here on this blog.</p>
+]]></description><link>https://www.groundwork.rocks/posts/170323-groundwork-rocks-soft-launch.md</link><guid isPermaLink="true">https://www.groundwork.rocks/posts/170323-groundwork-rocks-soft-launch.md</guid><dc:creator><![CDATA[Jake Rayson]]></dc:creator><pubDate>Thu, 23 Mar 2017 00:00:00 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link href="<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Rubik:500"" rel="stylesheet">
+</head>
+<body class="post">
+  <header role="banner">
+    <a class="github-ribbon" href="https://github.com/growdigital/groundwork">
+      <img src="/assets/images/github-forkme.png" alt="Fork me on GitHub">
+    </a>
+    <div class="header__sky">
+      <a href="/" title="Link to home page">
+        <h2 class="header__type"><a class="u-link-block" href="/">Groundwork</a></h2>
+      </a>
+    </div>
+    <div class="header__logo">
+      <a href="/" title="Link to home page">
+        <img class="header__logo__img" src="/assets/images/logo.svg" alt="Groundwork logo">
+      </a>
+      <h3 class="header__title">Modular CSS Starter Kit. It rocks.</h3>
+    </div>
+    <nav role="navigation">
+      <ol class="nav o-list-bare" >
+        <li><a class="home" href="/" title="">Home</a></li>
+        <li><a class="principles" href="/principles/" title="">Principles</a></li>
+        <li><a class="organisation" href="/organisation/" title="">Organisation</a></li>
+        <li><a class="syntax" href="/syntax/" title="">Syntax</a></li>
+      </ol>
+    </nav>
+  </header>
+  <h1>Front Matter snippet for Sublime Text in Metalsmith post</h1>
+  <time>Sat 25 Mar 2017</time>
+  <p>I made a quick snippet to add the <a href="https://jekyllrb.com/docs/frontmatter/">Front Matter</a> to <a href="http://www.metalsmith.io/">Metalsmith</a> blog posts, using the <a href="">Sublime Text Unofficial Documentation</a> and this <a href="http://stackoverflow.com/questions/13922174/defining-scope-for-custom-sublime-text-2-snippets#14682280">handy reference</a> for defining scope in Sublime. This is my result:</p>
+<pre><code>&lt;snippet&gt;
+  &lt;content&gt;&lt;![CDATA[
+---
+title: $1 
+date: ${2:2017-04-01}
+layout: post.hbs
+collections: posts
+draft: true
+---
+
+
+]]&gt;&lt;/content&gt;
+  &lt;!-- Optional: Set a tabTrigger to define how to trigger the snippet --&gt;
+    &lt;tabTrigger&gt;fm&lt;/tabTrigger&gt;
+  &lt;!-- Optional: Set a scope to limit where the snippet will trigger --&gt;
+    &lt;scope&gt;text.html.markdown&lt;/scope&gt;
+&lt;/snippet&gt;
+</code></pre><p>Tab to move between title, date and the beginning of the post. </p>
+<p>Type <code>fm</code> then hit the tab key to expand.</p>
+<p>It would be nice to insert the date with a keystroke. There’s a <a href="https://github.com/FichteFoll/InsertDate">plugin for that</a>, maybe tomorrow…</p>
+
+
+  <footer class="footer" role="contentinfo">
+    <nav role="navigation">
+      <ol class="nav o-list-bare">
+        <li><a href="/ref/" title="Link to quick reference">Reference</a></li>
+        <li><a href="/tutorial/" title="">Tutorial</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/styleguide/">Styleguide</a></li>
+      </ol>
+    </nav>
+    <div class="social">
+      <ol class="o-list-bare">
+        <li><a href="https://twitter.com/GroundWorkRocks">Twitter</a></li>
+        <li><a href="https://github.com/growdigital/groundwork">GitHub</a></li>
+        <li><a href="https://groundworkrocks.slack.com/">Slack</a></li>
+        <li><a href="mailto:contact@growdigital.org">Email</a></li>
+      </ol>
+    </div>
+    <div class="footer__small">
+      <p>Built by <a href="https://www.growdigital.org/">Jake Rayson</a> with <a href="http://www.metalsmith.io/">Metalsmith</a>, deployed by <a href="https://www.netlify.com/">Netlify</a></p>
+      <p>Copyright &copy; Jake Rayson 2017, licensed under <a href="https://choosealicense.com/licenses/mit/">MIT</a> and <a href="https://choosealicense.com/licenses/gpl-3.0/">GPL v3</a>
+    </div>
+  </footer>
+</body>
+</html>

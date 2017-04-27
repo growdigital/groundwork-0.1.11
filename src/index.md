@@ -20,7 +20,6 @@ $ git clone git@github.com:growdigital/groundwork.git
 $ cd groundwork
 $ npm install
 $ npm run dev
-
 ```
 
 ## Why did you make it?

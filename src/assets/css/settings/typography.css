@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Typography CSS
+   ========================================================================== */
+
+/**
+ * Feels more natural to separate out type stuff here
+ */
+
+/* Headings */
+h1, h2, h3, h4 {
+
+}
+
+/* Faux utility headings */
+.u-h1, .u-h2, .u-h3, .u-h4 {
+
+}
+
+/* Code */
+code, pre {
+  font-family:
+    /* Mac */
+    'Menlo', 'Andale Mono', 'Monaco',
+    /* Windows */
+    'Consolas', 'Lucida Console',
+    monospace
+}
