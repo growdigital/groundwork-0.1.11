@@ -9,11 +9,10 @@
 
 /**
  * Use the CSS Wizardry hack namespace
- * eg .c-footer-mobile {}
+ * eg ._footer-mobile {}
  * https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#hack-namespaces-_
  */
 
 .u-debug {
   outline: 1px solid red !important;
 }
-

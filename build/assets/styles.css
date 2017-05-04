@@ -688,7 +688,7 @@ code, pre {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #69cdff;
+  background-color: #0079c1;
   -webkit-clip-path: inset(0 0 0.55em 0);
           clip-path: inset(0 0 0.55em 0);
   display: -webkit-box;
@@ -735,7 +735,7 @@ code, pre {
 }
 
 .header__title {
-  color: #69cdff;
+  color: #0079c1;
   font-size: 1.1em;
   font-weight: normal;
 }
@@ -748,25 +748,6 @@ code, pre {
   background-color: #fdf6e3;
   padding: 1em;
 }
-
-/* ==========================================================================
-   Headings
-   ========================================================================== */
-
-h1, h2, h3, h4, h5 {
-  color: #794400;
-  font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-}
-
-h1 {
-  font-size: 2em;
-}
-
-.u-h1 {
-  font-size: 2em !important;
-}
-
 
 /* ==========================================================================
    Utilities - display
@@ -838,12 +819,11 @@ h1 {
 
 /**
  * Use the CSS Wizardry hack namespace
- * eg .c-footer-mobile {}
+ * eg ._footer-mobile {}
  * https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#hack-namespaces-_
  */
 
 .u-debug {
   outline: 1px solid red !important;
 }
-
 
