@@ -847,10 +847,3 @@ code, pre {
   outline: 1px solid red !important;
 }
 
-.main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
-}
-
