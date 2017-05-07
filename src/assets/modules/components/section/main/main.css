@@ -3,6 +3,12 @@
    ========================================================================== */
 
 .main {
-  background-color: var(--offwhite);
+  margin: 0 auto;
+  max-width: 44em;
   padding: 1em;
 }
+
+.main__wrapper {
+  background-color: var(--offwhite);
+}
+

@@ -4,20 +4,22 @@
 <body class="{{ pageClass }}">
 
   {{> header}}
-  <main class="main" role="main">
+  <div class="main__wrapper">
+    <main class="main" role="main">
 
-    {{{ contents }}}
+      {{{ contents }}}
 
-    {{#each collections }}
-    <h2>Posts</h2>
-      <ol>
-      {{#each this }}
-        <li><a href="/{{ this.path }}">{{ this.title }}</a></li>
+      {{#each collections }}
+      <h2>Posts</h2>
+        <ol>
+        {{#each this }}
+          <li><a href="/{{ this.path }}">{{ this.title }}</a></li>
+        {{/each}}
+        </ol>
       {{/each}}
-      </ol>
-    {{/each}}
 
-  </main>
+    </main>
+  </div><!-- end .main__wrapper -->
 
   {{> aside}}
 

@@ -618,6 +618,7 @@ code, pre {
 }
 
 
+
 /* ==========================================================================
    Main nav
    ==========================================================================*/
@@ -632,8 +633,9 @@ code, pre {
   display: -ms-flexbox;
   display: flex;
   font-family: 'Rubik', sans-serif;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 0.8em 2em 0.7em;
 }
 
@@ -681,8 +683,9 @@ code, pre {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 
@@ -765,9 +768,15 @@ code, pre {
    ========================================================================== */
 
 .main {
-  background-color: #fdf6e3;
+  margin: 0 auto;
+  max-width: 44em;
   padding: 1em;
 }
+
+.main__wrapper {
+  background-color: #fdf6e3;
+}
+
 
 /* ==========================================================================
    Utilities - display
