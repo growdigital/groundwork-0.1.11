@@ -601,6 +601,23 @@ code, pre {
   padding: 0;
 }
 
+/* ==========================================================================
+   list-center
+   ==========================================================================*/
+
+/**
+ * Centered inline list using flexbox
+ */
+
+.o-list-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 
 .textfield {
   background-color: #2a3c41;
@@ -617,6 +634,17 @@ code, pre {
   z-index: 10;
 }
 
+/* ==========================================================================
+   Icon
+   ========================================================================== */
+
+/**
+ * Cacheable SVG icons for the win win win
+ */
+
+#js-svg {
+  display: none;
+}
 
 
 /* ==========================================================================
@@ -629,13 +657,9 @@ code, pre {
 
 .nav {
   background-color: #603600;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  /*display: flex;*/
   font-family: 'Rubik', sans-serif;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  /*justify-content: center;*/
   padding: 0.8em 2em 0.7em;
 }
 

@@ -8,9 +8,9 @@
 
 .nav {
   background-color: var(--brown-dark);
-  display: flex;
+  /*display: flex;*/
   font-family: 'Rubik', sans-serif;
-  justify-content: center;
+  /*justify-content: center;*/
   padding: 0.8em 2em 0.7em;
 }
 
