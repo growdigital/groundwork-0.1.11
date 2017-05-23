@@ -4,9 +4,23 @@
 
 /**
  * Cacheable Ajax SVG icons for the win win win
- *
+ * Big thanks to Florens Verschelde:
+ * https://fvsch.com/code/svg-icons/how-to/#section-sprite
  */
 
+/* Hide SVG icons Ajaxed in */
 #js-svg {
   display: none;
+}
+
+.icon {
+  fill: currentColor;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.15em;
+}
+
+/* Fine tune size of icons */
+.icon__link .icon {
+  font-size: 200%;
 }
