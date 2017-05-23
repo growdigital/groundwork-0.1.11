@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Main nav
+   ==========================================================================*/
+
+/**
+ * Main navigation list
+ */
+
+
+
+.nav {
+  background-color: var(--brown-mid);
+  /*display: flex;*/
+  font-family: 'Rubik', sans-serif;
+  /*justify-content: center;*/
+  padding: 0.8em 2em 0.7em;
+}
+
+.nav--footer {
+  background-color: var(--brown);
+}
+
+.nav a {
+  border-radius: 0.2em;
+  padding: 0.2em 0.8em 0.3em;
+  text-decoration: none;
+}
+
+/* Menu page trails */
+
+.home .nav .home,
+.principles .nav .principles,
+.organisation .nav .organisation,
+.syntax .nav .syntax
+{
+  background-color: #502601;
+}
+
+.home .nav a:hover {
+  background-color: var(--offwhite);
+  color: var(--base_text);
+
+}
+
+.nav a,
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  color: white;
+}
+
+/*.nav > * {
+  padding: 0 1em;
+}
+*/

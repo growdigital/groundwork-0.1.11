@@ -27,7 +27,8 @@
 
   --base_background:     white;
   --base_color:          var(--base_text);
-  --base_fontfamily:     'Droid Serif', serif;
+  --base_font:           'Droid Serif', serif;
+  --base-fontdisplay:    'Rubik', sans-serif;
   --base_fontsize:       16px;
   --base_lineheight:     1.5;
   --base_linkcolor:      var(--blue_link);

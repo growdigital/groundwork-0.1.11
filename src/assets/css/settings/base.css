@@ -16,7 +16,7 @@
 html {
   background-color: var(--base_background);
   color:            var(--base_color);
-  font-family:      var(--base_fontfamily);
+  font-family:      var(--base_font);
   font-size:        var(--base_fontsize);
   line-height:      var(--base_lineheight);
 }

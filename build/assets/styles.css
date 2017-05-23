@@ -562,7 +562,8 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  /*font-size: 2em;*/
+  line-height: 1.1;
+  margin-bottom: 0.3em;
 }
 
 p {
@@ -571,10 +572,20 @@ p {
 
 pre {
   margin: 0.5em 0;
+  padding: 1em;
+  background-color: white;
+  border-radius: 0.3125em;
+}
+
+code {
+  background-color: white;
+  border-radius: .0625em;
+  padding: 0 0.2em;
+
 }
 
 blockquote {
-  padding: 0.2em 1em;
+  padding: 0.2em 1em 0 1em;
   font-size: larger;
   font-style: italic;
 }
@@ -727,6 +738,7 @@ code, pre {
 }
 */
 
+
 /* ==========================================================================
    Secondary nav
    ==========================================================================*/
@@ -743,7 +755,6 @@ code, pre {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 
 
 /* ==========================================================================
@@ -767,9 +778,10 @@ code, pre {
 .footer__small {
   background-color: #2C1800;
   color: white;
-  font-family: Rubik;
+  font-family: 'Rubik', sans-serif;
   font-size: small;
-  padding: 1em;
+  font-weight: 500;
+  padding: 1em 0.1em;
   text-align: center;
 }
 
@@ -786,6 +798,21 @@ code, pre {
   color: white;
   text-decoration: underline;
 }
+
+/* ==========================================================================
+   Main
+   ========================================================================== */
+
+.main {
+  margin: 0 auto;
+  max-width: 44em;
+  padding: 1em;
+}
+
+.main__wrapper {
+  background-color: #fdf6e3;
+}
+
 
 /* ==========================================================================
    Header
@@ -848,27 +875,6 @@ code, pre {
 }
 
 /* ==========================================================================
-   Main
-   ========================================================================== */
-
-.main {
-  margin: 0 auto;
-  max-width: 44em;
-  padding: 1em;
-}
-
-.main__wrapper {
-  background-color: #fdf6e3;
-}
-
-
-.u-cf:after {
-    content:"";
-    display:table;
-    clear:both;
-}
-
-/* ==========================================================================
    Utilities - display
    ========================================================================== */
 
@@ -885,6 +891,12 @@ code, pre {
   padding: 0 !important;
   position: absolute !important;
   width: 1px !important;
+}
+
+.u-cf:after {
+    content:"";
+    display:table;
+    clear:both;
 }
 
 /* ==========================================================================

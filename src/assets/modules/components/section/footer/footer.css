@@ -19,9 +19,10 @@
 .footer__small {
   background-color: var(--brown-dark);
   color: white;
-  font-family: Rubik;
+  font-family: var(--base-fontdisplay);
   font-size: small;
-  padding: 1em;
+  font-weight: 500;
+  padding: 1em 0.1em;
   text-align: center;
 }
 
