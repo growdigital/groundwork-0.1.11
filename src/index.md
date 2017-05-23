@@ -5,15 +5,11 @@ pageClass: home
 
 ---
 
-## What is it?
+# Quick and easy Modular CSS
 
-A quick way to start writing [modular CSS](/principles/) with a fully-fledged [static site generator](http://www.metalsmith.io/) and [styleguide](http://fractal.build/).
+A quick way to start writing [modular CSS](/principles/), Groundwork is easy to install and comes complete with a fully-fledged [static site generator](http://www.metalsmith.io/) and [styleguide](http://fractal.build/).
 
-Modular CSS is a way of organising your CSS, and other assets, into discrete and re-usable chunks.
-
-## How do I start?
-
-Make sure to have [Node.js](https://nodejs.org/en/download/) and [git](https://git-scm.com/) installed. Run these commands in your terminal in whichever directory you build your websites:
+Make sure to have [Node.js](https://nodejs.org/en/download/) and [git](https://git-scm.com/) installed. Run these commands in your terminal:
 
 ```bash
 $ git clone git@github.com:growdigital/groundwork.git
@@ -22,10 +18,4 @@ $ npm install
 $ npm run dev
 ```
 
-## Why did you make it?
-
-Modular CSS frameworks like [SUITCSS](http://suitcss.github.io/), [inuitcss](https://github.com/inuitcss) and [BEM](https://en.bem.info) are fantastic and robust but they are built for BIG websites. I wanted a much simpler “boilerplate” for my own projects.
-
-## Who is it for?
-
-Frontend developers and web designers who want a quick start with modular CSS to build relatively small websites.
+Groundwork is for web designers and frontend developers who are comfortable with the terminal and who want to wrap their heads around the how to Modular CSS works.

@@ -14,7 +14,21 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 2em;
+  /*font-size: 2em;*/
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+pre {
+  margin: 0.5em 0;
+}
+
+blockquote {
+  padding: 0.2em 1em;
+  font-size: larger;
+  font-style: italic;
 }
 
 /* Faux utility headings */

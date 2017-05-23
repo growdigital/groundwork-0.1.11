@@ -562,7 +562,21 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 2em;
+  /*font-size: 2em;*/
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+pre {
+  margin: 0.5em 0;
+}
+
+blockquote {
+  padding: 0.2em 1em;
+  font-size: larger;
+  font-style: italic;
 }
 
 /* Faux utility headings */
@@ -634,7 +648,6 @@ code, pre {
   z-index: 10;
 }
 
-
 /* ==========================================================================
    Icon
    ========================================================================== */
@@ -656,6 +669,7 @@ code, pre {
   height: 1.5em;
   vertical-align: -0.15em;
 }
+
 
 /* ==========================================================================
    Main nav
@@ -867,6 +881,12 @@ code, pre {
   width: 1px !important;
 }
 
+.u-cf:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
 /* ==========================================================================
    Utility - link-block
    ========================================================================== */
@@ -884,12 +904,6 @@ code, pre {
 .u-link-block:active {
   display: block !important;
   text-decoration: none !important;
-}
-
-.u-cf:after {
-    content:"";
-    display:table;
-    clear:both;
 }
 
 /* ==========================================================================

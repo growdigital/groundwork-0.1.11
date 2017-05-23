@@ -7,15 +7,14 @@ pageClass: principles
 
 # Principles of Modular CSS
 
+Modular CSS is a way of organising your CSS, and other assets, into discrete and re&#8209;usable chunks.
+
 > CSS is easy to write but a bugger to maintain. 
 
-Writing your CSS as modules can help because [repeating patterns](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) are recognised, named and re-used.
-
-Because each module is written as _separate_ files in their own directory, [version control](https://git-scm.com/about) is much easier. It is also easy to find specific modules: looking for a button? Just [goto](http://docs.sublimetext.info/en/latest/file_management/file_navigation.html#goto-anything) `button.css`.
-
-As each module is separate, this means that [building a style guide](http://fractal.build/guide) requires minimal setup.
-
-A note on nomenclature: module, object and component.
+* Each module is written as _separate_ files in their own directory.
+* [Version control](https://git-scm.com/about) is much easier.
+* Finding specific modules is simple. Looking for a button? Just [Goto](http://docs.sublimetext.info/en/latest/file_management/file_navigation.html#goto-anything) `button.css`.
+* [Building a style guide](http://fractal.build/guide) requires minimal setup.
 
 ## Some key principles
 
