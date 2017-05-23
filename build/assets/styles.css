@@ -634,6 +634,7 @@ code, pre {
   z-index: 10;
 }
 
+
 /* ==========================================================================
    Icon
    ========================================================================== */
@@ -656,12 +657,6 @@ code, pre {
   vertical-align: -0.15em;
 }
 
-/* Fine tune size of icons */
-.icon__link .icon {
-  font-size: 200%;
-}
-
-
 /* ==========================================================================
    Main nav
    ==========================================================================*/
@@ -669,6 +664,8 @@ code, pre {
 /**
  * Main navigation list
  */
+
+
 
 .nav {
   background-color: #603600;
@@ -678,11 +675,17 @@ code, pre {
   padding: 0.8em 2em 0.7em;
 }
 
+.nav--footer {
+  background-color: #794400;
+}
+
 .nav a {
   border-radius: 0.2em;
   padding: 0.2em 0.8em 0.3em;
   text-decoration: none;
 }
+
+/* Menu page trails */
 
 .home .nav .home,
 .principles .nav .principles,
@@ -733,13 +736,41 @@ code, pre {
    Footer
    ========================================================================== */
 
+.footer__social {
+  background-color: #603600;
+  padding: 1em;
+}
+
+/* Fine tune size of icons */
+.footer__social .icon {
+  font-size: 200%;
+}
+
+.footer__social a {
+  padding: 0 0.75em;
+}
+
 .footer__small {
-  background-color: black;
+  background-color: #2C1800;
   color: white;
   font-family: Rubik;
   font-size: small;
   padding: 1em;
   text-align: center;
+}
+
+/* Lights links for the footer */
+
+.footer__link a {
+  color: #ffac00;
+  text-decoration: underline;
+}
+
+.footer__link a:hover,
+.footer__link a:focus,
+.footer__link a:active {
+  color: white;
+  text-decoration: underline;
 }
 
 /* ==========================================================================
@@ -836,12 +867,6 @@ code, pre {
   width: 1px !important;
 }
 
-.u-cf:after {
-    content:"";
-    display:table;
-    clear:both;
-}
-
 /* ==========================================================================
    Utility - link-block
    ========================================================================== */
@@ -859,6 +884,12 @@ code, pre {
 .u-link-block:active {
   display: block !important;
   text-decoration: none !important;
+}
+
+.u-cf:after {
+    content:"";
+    display:table;
+    clear:both;
 }
 
 /* ==========================================================================

@@ -19,8 +19,3 @@
   height: 1.5em;
   vertical-align: -0.15em;
 }
-
-/* Fine tune size of icons */
-.icon__link .icon {
-  font-size: 200%;
-}

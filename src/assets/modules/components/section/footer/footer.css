@@ -2,11 +2,39 @@
    Footer
    ========================================================================== */
 
+.footer__social {
+  background-color: var(--brown-mid);
+  padding: 1em;
+}
+
+/* Fine tune size of icons */
+.footer__social .icon {
+  font-size: 200%;
+}
+
+.footer__social a {
+  padding: 0 0.75em;
+}
+
 .footer__small {
-  background-color: black;
+  background-color: var(--brown-dark);
   color: white;
   font-family: Rubik;
   font-size: small;
   padding: 1em;
   text-align: center;
+}
+
+/* Lights links for the footer */
+
+.footer__link a {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
+.footer__link a:hover,
+.footer__link a:focus,
+.footer__link a:active {
+  color: white;
+  text-decoration: underline;
 }

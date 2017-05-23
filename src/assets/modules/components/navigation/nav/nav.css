@@ -6,12 +6,18 @@
  * Main navigation list
  */
 
+
+
 .nav {
-  background-color: var(--brown-dark);
+  background-color: var(--brown-mid);
   /*display: flex;*/
   font-family: 'Rubik', sans-serif;
   /*justify-content: center;*/
   padding: 0.8em 2em 0.7em;
+}
+
+.nav--footer {
+  background-color: var(--brown);
 }
 
 .nav a {
@@ -19,6 +25,8 @@
   padding: 0.2em 0.8em 0.3em;
   text-decoration: none;
 }
+
+/* Menu page trails */
 
 .home .nav .home,
 .principles .nav .principles,
