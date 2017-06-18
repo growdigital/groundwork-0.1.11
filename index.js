@@ -1,5 +1,4 @@
 var Metalsmith  = require('metalsmith');
-var cleanCSS    = require('metalsmith-clean-css');
 var collections = require('metalsmith-collections');
 var concat      = require('metalsmith-concat');
 var dateFormat  = require('metalsmith-date-formatter');
@@ -11,7 +10,6 @@ var markdown    = require('metalsmith-markdown');
 var partials    = require('metalsmith-discover-partials');
 var permalinks  = require('metalsmith-permalinks');
 var postcss     = require('metalsmith-postcss');
-var prism       = require('metalsmith-prism');
 var metadata    = require('metalsmith-writemetadata');
 var handlebars  = require('handlebars');
 
@@ -26,7 +24,7 @@ Metalsmith(__dirname)
   })
   .source('./src')
   .destination('./build')
-  .clean(false)
+  .clean(true)
   .use(ignore([
     'docs/*',
     'assets/modules/**/**/*.hbs',
@@ -67,11 +65,6 @@ Metalsmith(__dirname)
       'postcss-cssnext': {}
     }
   }))
-  // .use(cleanCSS({
-  //   cleanCSS: {
-  //     rebase: true
-  //   }
-  // }))
   .use(drafts())
   .use(collections({
     posts: {
@@ -86,9 +79,6 @@ Metalsmith(__dirname)
   // }))
   .use(markdown({
     gfm: true
-  }))
-  .use(prism({
-    lineNumbers: true
   }))
   .use(partials({
     directory: 'partials',
