@@ -2,6 +2,8 @@
 
 [![Code Climate][climate-badge]][climate-url] [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Slack chat][slack-badge]][slack-url]
 
+**Currently on-hold: use [Groundwork.rocks](https://github.com/growdigital/groundwork.rocks/) to create new site**.
+
 ### Modular CSS Starter Kit. It rocks.
 
 ![Groundwork logo](build/assets/images/logo.png)
