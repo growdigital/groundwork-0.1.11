@@ -13,7 +13,14 @@
 }
 
 .footer__social a {
+  display: block;
   padding: 0 0.75em;
+}
+
+/* Hide underline for icon figcaption */
+.footer__social a:link,
+.footer__social a:visited {
+  text-decoration: none;
 }
 
 .footer__small {

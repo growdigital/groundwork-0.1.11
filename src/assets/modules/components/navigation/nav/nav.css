@@ -1,12 +1,10 @@
 /* ==========================================================================
-   Main nav
+   Nav
    ==========================================================================*/
 
 /**
- * Main navigation list
+ * Used for main and secondary nav
  */
-
-
 
 .nav {
   background-color: var(--brown-mid);
@@ -28,10 +26,15 @@
 
 /* Menu page trails */
 
+/* Main nav */
 .home .nav .home,
 .principles .nav .principles,
 .organisation .nav .organisation,
-.syntax .nav .syntax
+.syntax .nav .syntax,
+/* Secondary nav */
+.ref .nav .ref,
+.tutorial .nav .tutorial,
+.about .nav .about
 {
   background-color: #502601;
 }

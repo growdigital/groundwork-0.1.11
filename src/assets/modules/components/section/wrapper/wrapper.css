@@ -1,0 +1,18 @@
+/* ==========================================================================
+   Wrapper
+   ========================================================================== */
+
+/**
+ * Coloured wrapper for content background
+ */
+
+.wrapper {
+  background-color: var(--offwhite);
+  padding: 1.5em;
+}
+
+.wrapper > * {
+  margin: 0 auto;
+  max-width: 44em;
+}
+
