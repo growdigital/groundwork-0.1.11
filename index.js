@@ -17,9 +17,9 @@ var handlebars  = require('handlebars');
 Metalsmith(__dirname)
   .metadata({
     site: {
-      title: "Groundwork",
-      description: "Modular CSS Starter Kit. It rocks.",
-      url: "https://www.groundwork.rocks/",
+      title: "YourSiteTitle",
+      description: "Blank Modular CSS Starter Kit.",
+      url: "https://blank.groundwork.rocks/",
       author: "Jake Rayson"
     }
   })
