@@ -19,7 +19,7 @@
   --brown-mid:  #603600;
   --brown-dark: #2C1800;
 
-  --blue_link:  #006aa9;
+  --blue_link:  #0000ff;
 
   /**
    * Base variables, adapated from Suit CSS
@@ -27,8 +27,8 @@
 
   --base_background:     white;
   --base_color:          var(--base_text);
-  --base_font:           'Droid Serif', serif;
-  --base-fontdisplay:    'Rubik', sans-serif;
+  --base_font:           'Georgia', serif;
+  --base-fontdisplay:    sans-serif;
   --base_fontsize:       16px;
   --base_lineheight:     1.5;
   --base_linkcolor:      var(--blue_link);
