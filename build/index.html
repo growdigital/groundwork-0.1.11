@@ -26,11 +26,11 @@
       <h3 class="header__title">Blank Modular CSS Starter Kit.</h3>
     </div>
     <nav role="navigation">
-      <ol class="nav o-list-bare o-list-center" >
+      <ol class="nav o-list-bare o-list-center">
         <li><a class="home" href="/" title="">Home</a></li>
-        <li><a class="principles" href="/principles/" title="">Principles</a></li>
-        <li><a class="organisation" href="/organisation/" title="">Organisation</a></li>
-        <li><a class="syntax" href="/syntax/" title="">Syntax</a></li>
+        <li><a class="about" href="/about/">About</a></li>
+        <li><a class="html" href="/html/">HTML</a></li>
+        <li><a class="styleguide" href="/styleguide/">Styleguide</a></li>
       </ol>
     </nav>
   </header>
@@ -39,42 +39,37 @@
       <h1 id="quick-and-easy-modular-css">Quick and easy Modular CSS</h1>
 <p>A quick way to start writing <a href="/principles/">modular CSS</a>, Groundwork is easy to install and comes complete with a fully-fledged <a href="http://www.metalsmith.io/">static site generator</a> and <a href="http://fractal.build/">styleguide</a>.</p>
 <p>Make sure to have <a href="https://nodejs.org/en/download/">Node.js</a> and <a href="https://git-scm.com/">git</a> installed. Run these commands in your terminal:</p>
-<pre><code class="lang-bash">$ git clone git@github.com:growdigital/groundwork.rocks.git
-$ cd groundwork.rocks
+<pre><code class="lang-bash">$ git clone git@github.com:growdigital/groundwork.git
+$ cd groundwork
 $ npm install
 $ npm run dev
 </code></pre>
-<p><strong>NB:</strong> this will setup a copy of the <a href="https://www.groundwork.rocks/">Groundwork Rocks</a> website, which is in <strong>0.0.x version</strong>! Currently working on creating a blank template.</p>
+<p>See the posts for a step-through tutorial on using Groundwork, or visit the website for some background information: <a href="https://www.groundwork.rocks">www.groundwork.rocks</a></p>
+<h2 id="make-it-your-own">Make it your own</h2>
+<p>Change the <code>package.json</code> and <code>index.js</code> to make the project truly yours. And start styling it away from these intentionally drab and dreary colours:</p>
+<pre><code class="lang-css">white
+gainsboro
+gray
+dimgray
+black
+</code></pre>
 <p>Groundwork is for web designers and frontend developers who are comfortable with the terminal and who want to wrap their heads around the how to Modular CSS works.</p>
 
     </main>
     <aside role="complementary">
       <h2>Posts</h2>
         <ol class="o-list-disc">
-          <li><a href="/./posts/fractal-styleguide-now-with-styles">Fractal Styleguide, now with styles</a></li>
-          <li><a href="/./posts/romping-toward-a-0-1-0-release">Romping toward a 0.1.0 release…</a></li>
-          <li><a href="/./posts/enough-of-this-prefix-madness">Enough of this &#x60;prefix-&#x60; madness!</a></li>
-          <li><a href="/./posts/screencast-of-installation">Screencast of installation!</a></li>
-          <li><a href="/./posts/twitter-a-go-go">Twitter A Go Go</a></li>
-          <li><a href="/./posts/animated-gifs-are-in-production">Animated GIFs are in production</a></li>
-          <li><a href="/./posts/trending-on-github">Trending on GitHub</a></li>
-          <li><a href="/./posts/semver-setup">semver setup</a></li>
-          <li><a href="/./posts/front-matter-snippet-for-sublime-text-in-metalsmith-post">Front Matter snippet for Sublime Text in Metalsmith post</a></li>
-          <li><a href="/./posts/hbs-or-hbt-all-the-little-detail">hbs or hbt – all the little detail</a></li>
-          <li><a href="/./posts/groundwork-rocks-soft-launch">groundwork.rocks soft launch!</a></li>
+          <li><a href="/./posts/setup-groundwork-on-your-computer">Setup Groundwork on your computer</a></li>
+          <li><a href="/./posts/create-a-css-module">Create a CSS module</a></li>
+          <li><a href="/./posts/build-a-styleguide">Build a styleguide</a></li>
+          <li><a href="/./posts/setup-github-repository">Setup GitHub repository</a></li>
+          <li><a href="/./posts/remote-website-with-netlify">Remote website with Netlify</a></li>
+          <li><a href="/./posts/add-a-custom-domain">Add a custom domain</a></li>
         </ol>
     </aside>
   </div>
 
 <footer class="footer" id="footer" role="contentinfo">
-  <nav role="navigation">
-    <ol class="nav nav--footer o-list-bare o-list-center">
-      <li><a class="ref" href="/ref/">Reference</a></li>
-      <li><a class="tutorial" href="/tutorial/" title="">Tutorial</a></li>
-      <li><a class="about" href="/about/">About</a></li>
-      <li><a href="/styleguide/">Styleguide</a></li>
-    </ol>
-  </nav>
   <div class="footer__social footer__link">
     <ol class="o-list-bare o-list-center">
       <li><a href="https://github.com/growdigital/groundwork" title="Link to Groundwork repository on GitHub">GitHub</a></li>

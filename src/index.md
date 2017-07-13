@@ -12,13 +12,23 @@ A quick way to start writing [modular CSS](/principles/), Groundwork is easy to 
 Make sure to have [Node.js](https://nodejs.org/en/download/) and [git](https://git-scm.com/) installed. Run these commands in your terminal:
 
 ```bash
-$ git clone git@github.com:growdigital/groundwork.rocks.git
-$ cd groundwork.rocks
+$ git clone git@github.com:growdigital/groundwork.git
+$ cd groundwork
 $ npm install
 $ npm run dev
 ```
 
-<strong>NB:</strong> this will setup a copy of the [Groundwork Rocks](https://www.groundwork.rocks/) website, which is in **0.0.x version**! Currently working on creating a blank template.
+See the posts for a step-through tutorial on using Groundwork, or visit the website for some background information: [www.groundwork.rocks](https://www.groundwork.rocks)
 
+## Make it your own
+
+Change the `package.json` and `index.js` to make the project truly yours. And start styling it away from these intentionally drab and dreary colours:
+
+```css
+white
+gainsboro
+gray
+dimgray
+black 
+```
 Groundwork is for web designers and frontend developers who are comfortable with the terminal and who want to wrap their heads around the how to Modular CSS works.
-

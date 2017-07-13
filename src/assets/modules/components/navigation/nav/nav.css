@@ -21,13 +21,8 @@
 
 /* Main nav */
 .home .nav .home,
-.principles .nav .principles,
-.organisation .nav .organisation,
-.syntax .nav .syntax,
-/* Secondary nav */
-.ref .nav .ref,
-.tutorial .nav .tutorial,
-.about .nav .about
+.about .nav .about,
+.html .nav .html
 {
   background-color: black;
 }
@@ -35,7 +30,6 @@
 .home .nav a:hover {
   background-color: gainsboro;
   color: black;
-
 }
 
 .nav a,
@@ -45,7 +39,3 @@
   color: white;
 }
 
-/*.nav > * {
-  padding: 0 1em;
-}
-*/
