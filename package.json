@@ -1,7 +1,7 @@
 {
-  "name": "groundwork.rocks",
-  "version": "0.0.11",
-  "description": "Website for Groundwork, a Modular CSS Starter Kit using Metalsmith",
+  "name": "groundwork",
+  "version": "0.0.1",
+  "description": "Blank Modular CSS Starter Kit using Metalsmith",
   "author": "Jake Rayson <contact@groundwork.rocks>",
   "license": [
     "MIT ",
