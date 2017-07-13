@@ -99,7 +99,7 @@ Metalsmith(__dirname)
     engine: 'handlebars'
   }))
   .use(move({
-    'assets/modules/components/**/**/*.+(png|svg|jpg)': 'assets/images/{name}{ext}'
+    'assets/modules/components/**/**/*.+(png|svg|ico|jpg)': 'assets/images/{name}{ext}'
   }))
   .build(function(err, files) {
     if (err) { throw err; }

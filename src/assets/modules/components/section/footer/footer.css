@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .footer__social {
-  background-color: var(--brown-mid);
+  background-color: dimgray;
   padding: 1em;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .footer__small {
-  background-color: var(--brown-dark);
+  background-color: black;
   color: white;
   font-family: var(--base-fontdisplay);
   font-size: small;
@@ -36,7 +36,7 @@
 /* Lights links for the footer */
 
 .footer__link a {
-  color: var(--yellow);
+  color: white;
   text-decoration: underline;
 }
 

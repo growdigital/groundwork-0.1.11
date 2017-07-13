@@ -7,19 +7,12 @@
  */
 
 .nav {
-  background-color: var(--brown-mid);
-  /*display: flex;*/
-  font-family: 'Rubik', sans-serif;
-  /*justify-content: center;*/
+  background-color: gray;
+  font-family: var(--base-fontdisplay);
   padding: 0.8em 2em 0.7em;
 }
 
-.nav--footer {
-  background-color: var(--brown);
-}
-
 .nav a {
-  border-radius: 0.2em;
   padding: 0.2em 0.8em 0.3em;
   text-decoration: none;
 }
@@ -36,12 +29,12 @@
 .tutorial .nav .tutorial,
 .about .nav .about
 {
-  background-color: #502601;
+  background-color: black;
 }
 
 .home .nav a:hover {
-  background-color: var(--offwhite);
-  color: var(--base_text);
+  background-color: gainsboro;
+  color: black;
 
 }
 
