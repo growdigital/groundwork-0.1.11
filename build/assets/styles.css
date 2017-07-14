@@ -722,6 +722,55 @@ code, pre {
 
 
 /* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer__social {
+  background-color: dimgray;
+  padding: 1em;
+}
+
+/* Fine tune size of icons */
+.footer__social .icon {
+  font-size: 200%;
+}
+
+.footer__social a {
+  display: block;
+  padding: 0 0.75em;
+}
+
+/* Hide underline for icon figcaption */
+.footer__social a:link,
+.footer__social a:visited {
+  text-decoration: none;
+}
+
+.footer__small {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-size: small;
+  font-weight: 500;
+  padding: 1em 0.1em;
+  text-align: center;
+}
+
+/* Lights links for the footer */
+
+.footer__link a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer__link a:hover,
+.footer__link a:focus,
+.footer__link a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+/* ==========================================================================
    Header
    ========================================================================== */
 
@@ -779,55 +828,6 @@ code, pre {
   color: black;
   font-size: 1.1em;
   font-weight: normal;
-}
-
-/* ==========================================================================
-   Footer
-   ========================================================================== */
-
-.footer__social {
-  background-color: dimgray;
-  padding: 1em;
-}
-
-/* Fine tune size of icons */
-.footer__social .icon {
-  font-size: 200%;
-}
-
-.footer__social a {
-  display: block;
-  padding: 0 0.75em;
-}
-
-/* Hide underline for icon figcaption */
-.footer__social a:link,
-.footer__social a:visited {
-  text-decoration: none;
-}
-
-.footer__small {
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-  font-size: small;
-  font-weight: 500;
-  padding: 1em 0.1em;
-  text-align: center;
-}
-
-/* Lights links for the footer */
-
-.footer__link a {
-  color: white;
-  text-decoration: underline;
-}
-
-.footer__link a:hover,
-.footer__link a:focus,
-.footer__link a:active {
-  color: white;
-  text-decoration: underline;
 }
 
 /* ==========================================================================

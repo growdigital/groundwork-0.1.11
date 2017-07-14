@@ -1,0 +1,16 @@
+/* ==========================================================================
+   GitHub Ribbon
+   ========================================================================== */
+
+/**
+ * Just the GitHub Fork Me! ribbon, absolutely positioned top right o’ the page
+ * Also, PNG file optimised, half the size
+ */
+
+.github-ribbon img {
+  border: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}

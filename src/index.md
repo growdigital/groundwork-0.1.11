@@ -1,15 +1,15 @@
 ---
 layout: layout.hbs
-pageTitle: "Groundwork: Modular CSS"
+pageTitle: "Blank Groundwork: Modular CSS"
 pageClass: home
 
 ---
 
-# Quick and easy Modular CSS
+# Blank Modular CSS Starter Kit
 
-A quick way to start writing [modular CSS](/principles/), Groundwork is easy to install and comes complete with a fully-fledged [static site generator](http://www.metalsmith.io/) and [styleguide](http://fractal.build/).
+See [www.groundwork.rocks](https://www.groundwork.rocks) for instructions. 
 
-Make sure to have [Node.js](https://nodejs.org/en/download/) and [git](https://git-scm.com/) installed. Run these commands in your terminal:
+Quick start:
 
 ```bash
 $ git clone git@github.com:growdigital/groundwork.git
@@ -18,7 +18,11 @@ $ npm install
 $ npm run dev
 ```
 
-See the posts for a step-through tutorial on using Groundwork, or visit the website for some background information: [www.groundwork.rocks](https://www.groundwork.rocks)
+## Useful for
+
+1. Proof-of-concept: Modular CSS is this easy.
+2. Starter for your own [Metalsmith](http://www.metalsmith.io/) blog.
+3. Crib-sheet for creating your own Modular CSS with styleguide.
 
 ## Make it your own
 
@@ -31,4 +35,4 @@ gray
 dimgray
 black 
 ```
-Groundwork is for web designers and frontend developers who are comfortable with the terminal and who want to wrap their heads around the how to Modular CSS works.
+
