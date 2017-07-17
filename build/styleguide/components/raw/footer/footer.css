@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .footer__social {
-  background-color: dimgray;
+  background-color: gainsboro;
   padding: 1em;
 }
 
@@ -23,9 +23,11 @@
   text-decoration: none;
 }
 
+.footer__social a:hover {
+  text-decoration: underline;
+}
+
 .footer__small {
-  background-color: black;
-  color: white;
   font-family: var(--base-fontdisplay);
   font-size: small;
   font-weight: 500;
@@ -35,14 +37,5 @@
 
 /* Lights links for the footer */
 
-.footer__link a {
-  color: white;
-  text-decoration: underline;
-}
 
-.footer__link a:hover,
-.footer__link a:focus,
-.footer__link a:active {
-  color: white;
-  text-decoration: underline;
-}
+

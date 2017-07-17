@@ -7,7 +7,7 @@
  */
 
 .nav {
-  background-color: gray;
+  background-color: gainsboro;
   font-family: var(--base-fontdisplay);
   padding: 0.8em 2em 0.7em;
 }
@@ -24,11 +24,11 @@
 .about .nav .about,
 .html .nav .html
 {
-  background-color: black;
+  background-color: gray;
 }
 
 .home .nav a:hover {
-  background-color: gainsboro;
+  background-color: white;
   color: black;
 }
 
@@ -36,6 +36,6 @@
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  color: white;
+  color: black;
 }
 

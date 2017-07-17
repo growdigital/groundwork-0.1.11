@@ -551,6 +551,16 @@ table {
   outline: none !important;
 }
 
+/**
+ * Responsive. Images.
+ */
+
+img, embed, object, video {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
 /* ==========================================================================
    Typography CSS
    ========================================================================== */
@@ -578,12 +588,12 @@ p {
 pre {
   margin: 0.5em 0;
   padding: 1em;
-  background-color: white;
+  background-color: gainsboro;
   border-radius: 0.3125em;
 }
 
 code {
-  background-color: white;
+  background-color: gainsboro;
   border-radius: .0625em;
   padding: 0 0.2em;
 
@@ -630,6 +640,22 @@ code, pre {
 }
 
 /* ==========================================================================
+   list-disc
+   ==========================================================================*/
+
+/**
+ * List style type disc, for ordered lists to look like unordered lists.
+ * I know. But.
+ * The logic is that lists of posts *are* ordered lists (ie the order matters)
+ * Numbers don't look right, so make numbers bullet points, without losing
+ * any accessibility, ie screen readers pick up as ordered list (eg 1 of 10)
+ */
+
+.o-list-disc {
+  list-style-type: disc;
+}
+
+/* ==========================================================================
    list-center
    ==========================================================================*/
 
@@ -644,22 +670,6 @@ code, pre {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-/* ==========================================================================
-   list-disc
-   ==========================================================================*/
-
-/**
- * List style type disc, for ordered lists to look like unordered lists.
- * I know. But.
- * The logic is that lists of posts *are* ordered lists (ie the order matters)
- * Numbers don't look right, so make numbers bullet points, without losing
- * any accessibility, ie screen readers pick up as ordered list (eg 1 of 10)
- */
-
-.o-list-disc {
-  list-style-type: disc;
 }
 
 /* ==========================================================================
@@ -688,7 +698,7 @@ code, pre {
  */
 
 .nav {
-  background-color: gray;
+  background-color: gainsboro;
   font-family: sans-serif;
   padding: 0.8em 2em 0.7em;
 }
@@ -705,11 +715,11 @@ code, pre {
 .about .nav .about,
 .html .nav .html
 {
-  background-color: black;
+  background-color: gray;
 }
 
 .home .nav a:hover {
-  background-color: gainsboro;
+  background-color: white;
   color: black;
 }
 
@@ -717,7 +727,7 @@ code, pre {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  color: white;
+  color: black;
 }
 
 
@@ -726,7 +736,7 @@ code, pre {
    ========================================================================== */
 
 .footer__social {
-  background-color: dimgray;
+  background-color: gainsboro;
   padding: 1em;
 }
 
@@ -746,9 +756,11 @@ code, pre {
   text-decoration: none;
 }
 
+.footer__social a:hover {
+  text-decoration: underline;
+}
+
 .footer__small {
-  background-color: black;
-  color: white;
   font-family: sans-serif;
   font-size: small;
   font-weight: 500;
@@ -758,29 +770,17 @@ code, pre {
 
 /* Lights links for the footer */
 
-.footer__link a {
-  color: white;
-  text-decoration: underline;
-}
 
-.footer__link a:hover,
-.footer__link a:focus,
-.footer__link a:active {
-  color: white;
-  text-decoration: underline;
-}
+
 
 /* ==========================================================================
    Header
    ========================================================================== */
 
-.header__sky {
+.header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: dimgray;
-  -webkit-clip-path: inset(0 0 0.55em 0);
-          clip-path: inset(0 0 0.55em 0);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -788,9 +788,40 @@ code, pre {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  padding-top: 1em;
+}
+
+.header__nav {
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+}
+
+.header__heading {
+  font-size: 3em;
+}
+
+.header__heading a:link,
+.header__heading a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.header__heading a:hover {
+  text-decoration: underline;
+}
+
+.header__logo {
+  margin: 1em 0;
+  width: 6em;
+}
+
+.header__nav {
+  margin-top: 1em;
+}
+
+/*.header__sky {
+  background-color: dimgray;
+  clip-path: inset(0 0 0.55em 0);
   height: 22vh;
 }
 
@@ -805,17 +836,10 @@ code, pre {
 }
 
 .header__logo {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 6vh 0 1.5vh;
 }
 
@@ -829,6 +853,7 @@ code, pre {
   font-size: 1.1em;
   font-weight: normal;
 }
+*/
 
 /* ==========================================================================
    Post
@@ -854,7 +879,6 @@ code, pre {
  */
 
 .wrapper {
-  background-color: gainsboro;
   padding: 1.5em;
 }
 

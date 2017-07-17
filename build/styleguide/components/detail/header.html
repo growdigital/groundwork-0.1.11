@@ -221,44 +221,75 @@
    Header
    ========================================================================== */</span>
 
-<span class="hljs-selector-class">.header__sky</span> {
+<span class="hljs-selector-class">.header</span> {
   <span class="hljs-attribute">align-items</span>: center;
-  <span class="hljs-attribute">background-color</span>: dimgray;
-  <span class="hljs-attribute">clip-path</span>: <span class="hljs-built_in">inset</span>(0 0 0.55em 0);
   <span class="hljs-attribute">display</span>: flex;
   <span class="hljs-attribute">flex-direction</span>: column;
-  <span class="hljs-attribute">justify-content</span>: flex-end;
-  <span class="hljs-attribute">height</span>: <span class="hljs-number">22vh</span>;
+  <span class="hljs-attribute">padding-top</span>: <span class="hljs-number">1em</span>;
 }
 
-<span class="hljs-selector-class">.header__type</span> {
+<span class="hljs-selector-class">.header__nav</span> {
+  <span class="hljs-attribute">align-self</span>: stretch;
+}
+
+<span class="hljs-selector-class">.header__heading</span> {
   <span class="hljs-attribute">font-size</span>: <span class="hljs-number">3em</span>;
-  <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1</span>;
-  <span class="hljs-attribute">margin</span>: <span class="hljs-number">0</span>;
 }
 
-<span class="hljs-selector-class">.header__type</span> <span class="hljs-selector-tag">a</span> {
-  <span class="hljs-attribute">color</span>: white <span class="hljs-meta">!important</span>;
+<span class="hljs-selector-class">.header__heading</span> <span class="hljs-selector-tag">a</span><span class="hljs-selector-pseudo">:link</span>,
+<span class="hljs-selector-class">.header__heading</span> <span class="hljs-selector-tag">a</span><span class="hljs-selector-pseudo">:visited</span> {
+  <span class="hljs-attribute">color</span>: black;
+  <span class="hljs-attribute">text-decoration</span>: none;
+}
+
+<span class="hljs-selector-class">.header__heading</span> <span class="hljs-selector-tag">a</span><span class="hljs-selector-pseudo">:hover</span> {
+  <span class="hljs-attribute">text-decoration</span>: underline;
 }
 
 <span class="hljs-selector-class">.header__logo</span> {
-  <span class="hljs-attribute">align-items</span>: center;
-  <span class="hljs-attribute">background-color</span>: white;
-  <span class="hljs-attribute">display</span>: flex;
-  <span class="hljs-attribute">flex-direction</span>: column;
-  <span class="hljs-attribute">padding</span>: <span class="hljs-number">6vh</span> <span class="hljs-number">0</span> <span class="hljs-number">1.5vh</span>;
-}
-
-<span class="hljs-selector-class">.header__logo__img</span> {
-  <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">3em</span>;
+  <span class="hljs-attribute">margin</span>: <span class="hljs-number">1em</span> <span class="hljs-number">0</span>;
   <span class="hljs-attribute">width</span>: <span class="hljs-number">6em</span>;
 }
 
-<span class="hljs-selector-class">.header__title</span> {
-  <span class="hljs-attribute">color</span>: black;
-  <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.1em</span>;
-  <span class="hljs-attribute">font-weight</span>: normal;
+<span class="hljs-selector-class">.header__nav</span> {
+  <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">1em</span>;
 }
+
+<span class="hljs-comment">/*.header__sky {
+  background-color: dimgray;
+  clip-path: inset(0 0 0.55em 0);
+  height: 22vh;
+}
+
+.header__type {
+  font-size: 3em;
+  line-height: 1;
+  margin: 0;
+}
+
+.header__type a {
+  color: white !important;
+}
+
+.header__logo {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 6vh 0 1.5vh;
+}
+
+.header__logo__img {
+  margin-bottom: 3em;
+  width: 6em;
+}
+
+.header__title {
+  color: black;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+*/</span>
 </pre>
                             </code>
                             
@@ -275,7 +306,7 @@
                 </li>
                 <li class="Meta-item">
                     <strong class="Meta-key">Size:</strong>
-                    <span class="Meta-value">752 Bytes</span>
+                    <span class="Meta-value">1.1 KB</span>
                 </li>
             </ul>
         </div>

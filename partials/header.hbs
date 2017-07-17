@@ -1,19 +1,13 @@
-<header role="banner">
+<header class="header" role="banner">
   <a class="github-ribbon" href="https://github.com/growdigital/groundwork">
     <img src="/assets/images/github-ribbon.png" alt="Fork me on GitHub">
   </a>
-  <div class="header__sky">
-    <a href="/" title="Link to home page">
-      <h2 class="header__type"><a class="u-link-block" href="/">{{ site.title }}</a></h2>
-    </a>
-  </div>
-  <div class="header__logo">
-    <a href="/" title="Link to home page">
-      <img class="header__logo__img" src="/assets/images/logo.svg" alt="Groundwork Blank logo">
-    </a>
-    <h3 class="header__title">{{ site.description }}</h3>
-  </div>
-  <nav role="navigation">
+  <h2 class="header__heading"><a href="/" title="Link to home page">{{ site.title }}</a></h2>
+  <a href="/" title="Link to home page">
+    <img class="header__logo" src="/assets/images/logo.svg" alt="Groundwork Blank logo">
+  </a>
+  <h3>{{ site.description }}</h3>
+  <nav class="header__nav" role="navigation">
     <ol class="nav o-list-bare o-list-center">
       <li><a class="home" href="/" title="">Home</a></li>
       <li><a class="about" href="/about/">About</a></li>

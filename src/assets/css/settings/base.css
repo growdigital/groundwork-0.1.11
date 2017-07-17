@@ -81,3 +81,13 @@ table {
 [tabindex="-1"]:focus {
   outline: none !important;
 }
+
+/**
+ * Responsive. Images.
+ */
+
+img, embed, object, video {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}

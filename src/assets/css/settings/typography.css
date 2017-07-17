@@ -25,12 +25,12 @@ p {
 pre {
   margin: 0.5em 0;
   padding: 1em;
-  background-color: white;
+  background-color: gainsboro;
   border-radius: 0.3125em;
 }
 
 code {
-  background-color: white;
+  background-color: gainsboro;
   border-radius: .0625em;
   padding: 0 0.2em;
 
