@@ -484,7 +484,7 @@ template {
 /* Apply base variables */
 html {
   background-color: white;
-  color: #2a3c41;
+  color: #333;
   font-family: 'Georgia', serif;
   font-size: 16px;
   line-height: 1.5;
@@ -492,19 +492,19 @@ html {
 
 /* Links */
 a {
-  color: #0000ff;
+  color: #00f;
   text-decoration: underline;
 }
 
 a:hover,
 a:focus,
 a:active {
-  color: #2a3c41;
+  color: #333;
   text-decoration: underline;
 }
 
 *:focus {
-  outline: dotted 1px #0000ff;
+  outline: dotted 1px #00f;
 }
 
 /* Prevents border on linked image in IE */
@@ -640,22 +640,6 @@ code, pre {
 }
 
 /* ==========================================================================
-   list-disc
-   ==========================================================================*/
-
-/**
- * List style type disc, for ordered lists to look like unordered lists.
- * I know. But.
- * The logic is that lists of posts *are* ordered lists (ie the order matters)
- * Numbers don't look right, so make numbers bullet points, without losing
- * any accessibility, ie screen readers pick up as ordered list (eg 1 of 10)
- */
-
-.o-list-disc {
-  list-style-type: disc;
-}
-
-/* ==========================================================================
    list-center
    ==========================================================================*/
 
@@ -670,6 +654,22 @@ code, pre {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+/* ==========================================================================
+   list-disc
+   ==========================================================================*/
+
+/**
+ * List style type disc, for ordered lists to look like unordered lists.
+ * I know. But.
+ * The logic is that lists of posts *are* ordered lists (ie the order matters)
+ * Numbers don't look right, so make numbers bullet points, without losing
+ * any accessibility, ie screen readers pick up as ordered list (eg 1 of 10)
+ */
+
+.o-list-disc {
+  list-style-type: disc;
 }
 
 /* ==========================================================================
@@ -688,48 +688,6 @@ code, pre {
   top: 0;
   z-index: 10;
 }
-
-/* ==========================================================================
-   Nav
-   ==========================================================================*/
-
-/**
- * Used for main and secondary nav
- */
-
-.nav {
-  background-color: gainsboro;
-  font-family: sans-serif;
-  padding: 0.8em 2em 0.7em;
-}
-
-.nav a {
-  padding: 0.2em 0.8em 0.3em;
-  text-decoration: none;
-}
-
-/* Menu page trails */
-
-/* Main nav */
-.home .nav .home,
-.about .nav .about,
-.html .nav .html
-{
-  background-color: gray;
-}
-
-.home .nav a:hover {
-  background-color: white;
-  color: black;
-}
-
-.nav a,
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-  color: black;
-}
-
 
 /* ==========================================================================
    Footer
@@ -885,6 +843,48 @@ code, pre {
 .wrapper > * {
   margin: 0 auto;
   max-width: 44em;
+}
+
+
+/* ==========================================================================
+   Nav
+   ==========================================================================*/
+
+/**
+ * Used for main and secondary nav
+ */
+
+.nav {
+  background-color: gainsboro;
+  font-family: sans-serif;
+  padding: 0.8em 2em 0.7em;
+}
+
+.nav a {
+  padding: 0.2em 0.8em 0.3em;
+  text-decoration: none;
+}
+
+/* Menu page trails */
+
+/* Main nav */
+.home .nav .home,
+.about .nav .about,
+.html .nav .html
+{
+  background-color: gray;
+}
+
+.home .nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.nav a,
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  color: black;
 }
 
 

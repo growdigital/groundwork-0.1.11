@@ -9,7 +9,7 @@
   ],
   "private": true,
   "dependencies": {
-    "@frctl/fractal": "^1.1.4",
+    "@frctl/fractal": "^1.1.5",
     "handlebars": "^4.0.10",
     "handlebars-layouts": "^3.1.4",
     "metalsmith": "^2.3.0",
@@ -29,7 +29,7 @@
     "postcss-cssnext": "^3.0.2"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.8",
+    "browser-sync": "^2.18.13",
     "metalsmith-writemetadata": "^0.4.5",
     "nodemon": "^1.11.0"
   },

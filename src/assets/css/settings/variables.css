@@ -8,18 +8,8 @@
    * Colors
    */
 
-  --offwhite:   #fdf6e3;
-  --grey:       #b4a99f;
-  --blue_sky:   #0079c1;
-  --base_text:  #2a3c41;
-
-  --yellow:     #ffac00;
-  --orange:     #f3561d;
-  --brown:      #794400;
-  --brown-mid:  #603600;
-  --brown-dark: #2C1800;
-
-  --blue_link:  #0000ff;
+  --base_text:  #333;
+  --blue_link:  #00f;
 
   /**
    * Base variables, adapated from Suit CSS
