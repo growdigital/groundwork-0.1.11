@@ -690,6 +690,48 @@ code, pre {
 }
 
 /* ==========================================================================
+   Nav
+   ==========================================================================*/
+
+/**
+ * Used for main and secondary nav
+ */
+
+.nav {
+  background-color: gainsboro;
+  font-family: sans-serif;
+  padding: 0.8em 2em 0.7em;
+}
+
+.nav a {
+  padding: 0.2em 0.8em 0.3em;
+  text-decoration: none;
+}
+
+/* Menu page trails */
+
+/* Main nav */
+.home .nav .home,
+.about .nav .about,
+.html .nav .html
+{
+  background-color: gray;
+}
+
+.home .nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.nav a,
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  color: black;
+}
+
+
+/* ==========================================================================
    Footer
    ========================================================================== */
 
@@ -843,48 +885,6 @@ code, pre {
 .wrapper > * {
   margin: 0 auto;
   max-width: 44em;
-}
-
-
-/* ==========================================================================
-   Nav
-   ==========================================================================*/
-
-/**
- * Used for main and secondary nav
- */
-
-.nav {
-  background-color: gainsboro;
-  font-family: sans-serif;
-  padding: 0.8em 2em 0.7em;
-}
-
-.nav a {
-  padding: 0.2em 0.8em 0.3em;
-  text-decoration: none;
-}
-
-/* Menu page trails */
-
-/* Main nav */
-.home .nav .home,
-.about .nav .about,
-.html .nav .html
-{
-  background-color: gray;
-}
-
-.home .nav a:hover {
-  background-color: white;
-  color: black;
-}
-
-.nav a,
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-  color: black;
 }
 
 

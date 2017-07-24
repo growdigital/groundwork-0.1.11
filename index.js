@@ -1,4 +1,5 @@
 var Metalsmith  = require('metalsmith');
+var cleancss    = require('metalsmith-clean-css');
 var collections = require('metalsmith-collections');
 var concat      = require('metalsmith-concat');
 var dateFormat  = require('metalsmith-date-formatter');
@@ -50,6 +51,10 @@ Metalsmith(__dirname)
     ],
     searchPaths: [ 'node_modules' ],
     output: 'assets/styles.css'
+  }))
+  // Optimise CSS
+  .use(cleancss({
+    files: '/build/assets/styles.css'
   }))
   // Concat JavaScript
   .use(concat({
