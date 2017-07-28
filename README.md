@@ -92,4 +92,3 @@ Documentation will be on the website [www.groundwork.rocks](https://www.groundwo
 [dep-url]: https://www.versioneye.com/user/projects/58d97d9226a5bb002b54bea2
 [slack-badge]: https://img.shields.io/badge/Groundwork%20Rocks-Join%20Chat%20→-blue.svg
 [slack-url]: https://groundworkrocks.slack.com/
-
