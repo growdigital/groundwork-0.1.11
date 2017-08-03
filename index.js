@@ -54,7 +54,7 @@ Metalsmith(__dirname)
   }))
   // Optimise CSS
   .use(cleancss({
-    files: '/build/assets/styles.css'
+    files: 'assets/styles.css'
   }))
   // Concat JavaScript
   .use(concat({
