@@ -9,11 +9,11 @@
 .nav {
   background-color: gainsboro;
   font-family: var(--base-fontdisplay);
-  padding: 0.8em 2em 0.7em;
+  padding: 0.7em;
 }
 
 .nav a {
-  padding: 0.2em 0.8em 0.3em;
+  padding: 0.3em 0.8em;
   text-decoration: none;
 }
 
@@ -24,12 +24,11 @@
 .about .nav .about,
 .html .nav .html
 {
-  background-color: gray;
+  text-decoration: underline;
 }
 
 .home .nav a:hover {
   background-color: white;
-  color: black;
 }
 
 .nav a,
