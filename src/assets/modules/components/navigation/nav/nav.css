@@ -24,10 +24,6 @@
 .about .nav .about,
 .html .nav .html
 {
-  text-decoration: underline;
-}
-
-.home .nav a:hover {
   background-color: white;
 }
 
@@ -36,5 +32,10 @@
 .nav a:focus,
 .nav a:active {
   color: black;
+}
+
+.nav a:hover {
+  color: var(--base_linkcolorhover);
+  text-decoration: underline;
 }
 

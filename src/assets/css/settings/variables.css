@@ -22,6 +22,6 @@
   --base_fontsize:       16px;
   --base_lineheight:     1.5;
   --base_linkcolor:      var(--blue_link);
-  --base_linkcolorhover: var(--base_text);
+  --base_linkcolorhover: var(--blue_link);
 
 }
