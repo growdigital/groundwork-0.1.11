@@ -26,6 +26,7 @@
     "metalsmith-movey": "0.0.7",
     "metalsmith-permalinks": "^0.5.0",
     "metalsmith-postcss": "^4.0.1",
+    "metalsmith-uglifyjs": "^0.2.3",
     "normalize.css": "^7.0.0",
     "postcss-cssnext": "^3.0.2"
   },

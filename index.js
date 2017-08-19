@@ -14,6 +14,8 @@ let permalinks  = require('metalsmith-permalinks');
 let postcss     = require('metalsmith-postcss');
 let metadata    = require('metalsmith-writemetadata');
 let handlebars  = require('handlebars');
+let uglifyjs    = require("metalsmith-uglifyjs");
+
 
 Metalsmith(__dirname)
   .metadata({
@@ -52,11 +54,11 @@ Metalsmith(__dirname)
     searchPaths: [ 'node_modules' ],
     output: 'assets/styles.css'
   }))
-  // Optimise CSS
+  // Optimise (uglify) CSS
   .use(cleancss({
     files: 'assets/styles.css'
   }))
-  // Concat JavaScript
+  // Concatenate JavaScript
   .use(concat({
     files: [
        'assets/js/*.js'
@@ -67,7 +69,19 @@ Metalsmith(__dirname)
     searchPaths: [ 'node_modules' ],
     output: 'assets/scripts.js'
   }))
-  // +1 PostCSS for vanilla CSS. Use CSS preprocessor of your choice!
+  // Optimise (uglify) JavaScript
+  .use(uglifyjs({
+    src: ["assets/scripts.js"],
+    override: true,
+    uglifyOptions: {
+      mangle: true,
+      compress: {
+        unused: false,
+        warnings: true
+      }
+    }
+  }))
+  // +1 PostCSS. Use CSS preprocessor of your choice if you’d rather!
   .use(postcss({
     plugins: {
       'postcss-cssnext': {}
