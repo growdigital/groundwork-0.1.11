@@ -29,7 +29,7 @@ Metalsmith(__dirname)
   .source('./src')
   .destination('./build')
   // Only clean in dev. Set to false to preserve Fractal styleguide.
-  .clean(false)
+  .clean(true)
   // Ignoring documentation and Fractal templates
   .use(ignore([
     'docs/*',

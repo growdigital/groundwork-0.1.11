@@ -56,6 +56,11 @@ If you just want to build the site without previewing, run:
 $ npm run build
 ```
 
+To run Metalsmith in debug mode, add `DEBUG=metalsmith*` to the npm start script in `package.json`:
+```javascript
+"start": "DEBUG=metalsmith* node index.js",
+```
+
 ## Organisation of CSS
 
 1. **Variables**: global variables and site-wide settings eg `responsive.css`

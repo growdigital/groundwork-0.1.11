@@ -8,6 +8,7 @@ pageClass: home
 # Blank Modular CSS Starter Kit
 
 See [www.groundwork.rocks](https://www.groundwork.rocks) for instructions. 
+[Fork me on GitHub](https://github.com/growdigital/groundwork). 
 
 Quick start:
 
