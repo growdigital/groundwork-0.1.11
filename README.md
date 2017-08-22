@@ -93,7 +93,7 @@ Documentation will be on the website [www.groundwork.rocks](https://www.groundwo
 [climate-url]: https://codeclimate.com/github/growdigital/groundwork
 [issue-badge]: https://codeclimate.com/github/growdigital/groundwork/badges/issue_count.svg
 [issue-url]: https://codeclimate.com/github/growdigital/groundwork
-[dep-badge]: https://www.versioneye.com/user/projects/58d97d9226a5bb002b54bea2/badge.svg?style=flat-square
+[dep-badge]: https://www.versioneye.com/user/projects/599ca850368b08141959f90f/badge.svg?style=flat-square
 [dep-url]: https://www.versioneye.com/user/projects/58d97d9226a5bb002b54bea2
 [slack-badge]: https://img.shields.io/badge/Groundwork%20Rocks-Join%20Chat%20→-blue.svg
 [slack-url]: https://groundworkrocks.slack.com/
