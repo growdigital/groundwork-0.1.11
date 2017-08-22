@@ -4,7 +4,7 @@
 
 ### Modular CSS Starter Kit. It rocks.
 
-![Groundwork logo](build/assets/images/logo.png)
+![Groundwork logo](https://blank.groundwork.rocks/assets/images/logo.svg)
 
 * Out-of-the-box Modular CSS website
 * Combines individual modular CSS files into one stylesheet
