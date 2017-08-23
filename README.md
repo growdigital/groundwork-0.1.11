@@ -1,6 +1,6 @@
 # Groundwork
 
-[![Code Climate][climate-badge]][climate-url] [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Slack chat][slack-badge]][slack-url]
+[![Code Climate][climate-badge]][climate-url] [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Slack chat][slack-badge]][slack-url] [![Stories in Ready](https://badge.waffle.io/growdigital/groundwork.png?label=ready&title=Ready)](http://waffle.io/growdigital/groundwork)
 
 ### Modular CSS Starter Kit. It rocks.
 
