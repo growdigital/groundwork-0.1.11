@@ -10,7 +10,7 @@ pageClass: home
 See [www.groundwork.rocks](https://www.groundwork.rocks) for instructions. 
 [Fork me on GitHub](https://github.com/growdigital/groundwork). 
 
-Quick start:
+## Quick start:
 
 ```bash
 $ git clone git@github.com:growdigital/groundwork.git
@@ -19,21 +19,25 @@ $ npm install
 $ npm run dev
 ```
 
-## Useful for
-
-1. Proof-of-concept: Modular CSS is this easy.
-2. Starter for your own [Metalsmith](http://www.metalsmith.io/) blog.
-3. Crib-sheet for creating your own Modular CSS with styleguide.
-
 ## Make it your own
 
-Change the `package.json` and `index.js` to make the project truly yours. And start styling it away from these intentionally drab and dreary colours:
+To make it truly yours, change the `package.json`…:
 
-```css
-white
-gainsboro
-gray
-dimgray
-black 
+```json
+"name": "groundwork",
+"version": "0.1.6",
+"description": "Blank Modular CSS Starter Kit using Metalsmith",
 ```
 
+…and `index.js`:
+
+```javascript
+.metadata({
+  site: {
+    title: "Blank Groundwork",
+    description: "Blank Modular CSS Starter Kit.",
+    url: "https://blank.groundwork.rocks/",
+    author: "Jake Rayson"
+```
+
+Run `$ npm install` to update `package-lock.json`.
