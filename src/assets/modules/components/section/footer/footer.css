@@ -28,7 +28,6 @@
 }
 
 .footer__small {
-  font-family: var(--base-fontdisplay);
   font-size: small;
   font-weight: 500;
   padding: 1em 0.1em;
