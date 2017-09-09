@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .footer__social {
-  background-color: gainsboro;
+  background-color: var(--base_bgtint);
   padding: 1em;
 }
 

@@ -14,7 +14,7 @@
 
 /* Apply base variables */
 html {
-  background-color: var(--base_background);
+  background-color: var(--base_bg);
   color:            var(--base_color);
   font-family:      var(--base_font);
   font-size:        var(--base_fontsize);
@@ -30,12 +30,11 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: var(--base_linkcolorhover);
   text-decoration: underline;
 }
 
 *:focus {
-  outline: dotted 1px var(--blue_link);
+  outline: dotted 1px;
 }
 
 /* Prevents border on linked image in IE */

@@ -7,7 +7,7 @@
  */
 
 .nav {
-  background-color: gainsboro;
+  background-color: var(--base_bgtint);
   padding: 0.7em;
 }
 
@@ -23,18 +23,17 @@
 .about .nav .about,
 .html .nav .html
 {
-  background-color: white;
+  background-color: var(--base_bg);
 }
 
 .nav a,
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  color: black;
+  color: var(--base_colortint);
 }
 
 .nav a:hover {
-  color: var(--base_linkcolorhover);
   text-decoration: underline;
 }
 

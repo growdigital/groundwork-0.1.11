@@ -4,23 +4,52 @@
 
 :root {
 
-  /**
-   * Colors
-   */
-
-  --base_text:  #333;
-  --blue_link:  #00f;
+  /* Colors
+     ======================================================================== */
 
   /**
-   * Base variables, adapated from Suit CSS
-   */
+  * Using Solarized palette color variables, then subsequently referencing
+  * them in base variables
+  * http://ethanschoonover.com/solarized
+  * https://github.com/growdigital/solarized.svg
+  */
 
-  --base_background:     white;
-  --base_color:          var(--base_text);
-  --base_font:           sans-serif;
-  --base_fontsize:       16px;
-  --base_lineheight:     1.5;
-  --base_linkcolor:      var(--blue_link);
-  --base_linkcolorhover: var(--blue_link);
+  /* Background tones (dark) */
+  --base03: #002b36;
+  --base02: #073642;
+
+  /* Content tones */
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0:  #839496;
+  --base1:  #93a1a1;
+
+  /* Background tones (light) */
+  --base2:  #eee8d5;
+  --base3:  #fdf6e3;
+
+  /* Accent colors */
+  --yellow:  #b58900;
+  --orange:  #cb4b16;
+  --red:     #dc322f;
+  --magenta: #d33682;
+  --violet:  #6c71c4;
+  --blue:    #268bd2;
+  --cyan:    #2aa198;
+  --green:   #859900;
+  /* Only using blue; other accent colors aren't 'rendered' out by PostCSS,
+     so no file size hit by including them here */
+
+  /* Base variables, adapated from SUIT CSS
+     ======================================================================== */
+
+  --base_bg:         var(--base3); /* background */
+  --base_bgtint:     var(--base2); /* background tint */
+  --base_color:      var(--base00); /* text color */
+  --base_colortint:  var(--base01); /* text color tint */
+  --base_linkcolor:  var(--blue);
+  --base_font:       sans-serif;
+  --base_fontsize:   16px;
+  --base_lineheight: 1.5;
 
 }

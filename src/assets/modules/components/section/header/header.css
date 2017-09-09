@@ -19,7 +19,7 @@
 
 .header__heading a:link,
 .header__heading a:visited {
-  color: black;
+  color: var(--base_colortint);
   text-decoration: none;
 }
 
@@ -35,39 +35,3 @@
 .header__nav {
   margin-top: 1em;
 }
-
-/*.header__sky {
-  background-color: dimgray;
-  clip-path: inset(0 0 0.55em 0);
-  height: 22vh;
-}
-
-.header__type {
-  font-size: 3em;
-  line-height: 1;
-  margin: 0;
-}
-
-.header__type a {
-  color: white !important;
-}
-
-.header__logo {
-  align-items: center;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  padding: 6vh 0 1.5vh;
-}
-
-.header__logo__img {
-  margin-bottom: 3em;
-  width: 6em;
-}
-
-.header__title {
-  color: black;
-  font-size: 1.1em;
-  font-weight: normal;
-}
-*/
