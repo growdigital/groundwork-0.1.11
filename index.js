@@ -1,20 +1,20 @@
-let Metalsmith  = require('metalsmith');
-let cleancss    = require('metalsmith-clean-css');
-let collections = require('metalsmith-collections');
-let concat      = require('metalsmith-concat');
-let dateFormat  = require('metalsmith-date-formatter');
-let drafts      = require('metalsmith-drafts');
-let feed        = require('metalsmith-feed');
-let ignore      = require('metalsmith-ignore');
-let templates   = require('metalsmith-layouts');
-let markdown    = require('metalsmith-markdown');
-let move        = require('metalsmith-movey').default;
-let partials    = require('metalsmith-discover-partials');
-let permalinks  = require('metalsmith-permalinks');
-let postcss     = require('metalsmith-postcss');
-let metadata    = require('metalsmith-writemetadata');
-let handlebars  = require('handlebars');
-let uglifyjs    = require("metalsmith-uglifyjs");
+const Metalsmith  = require('metalsmith');
+const cleancss    = require('metalsmith-clean-css');
+const collections = require('metalsmith-collections');
+const concat      = require('metalsmith-concat');
+const dateFormat  = require('metalsmith-date-formatter');
+const drafts      = require('metalsmith-drafts');
+const feed        = require('metalsmith-feed');
+const ignore      = require('metalsmith-ignore');
+const templates   = require('metalsmith-layouts');
+const markdown    = require('metalsmith-markdown');
+const move        = require('metalsmith-movey').default;
+const partials    = require('metalsmith-discover-partials');
+const permalinks  = require('metalsmith-permalinks');
+const postcss     = require('metalsmith-postcss');
+const metadata    = require('metalsmith-writemetadata');
+const handlebars  = require('handlebars');
+const uglifyjs    = require("metalsmith-uglifyjs");
 
 Metalsmith(__dirname)
   .metadata({
