@@ -8,7 +8,7 @@
 
 /* Headings */
 h1, h2, h3, h4, h5 {
-  color: var(--base_colortint);
+  color: var(--base00tint);
   font-weight: 500;
 }
 
@@ -24,12 +24,12 @@ p {
 pre {
   margin: 0.5em 0;
   padding: 1em;
-  background-color: var(--base_bgtint);
+  background-color: var(--base2);
   border-radius: 0.3125em;
 }
 
 code {
-  background-color: var(--base_bgtint);
+  background-color: var(--base2);
   border-radius: .0625em;
   padding: 0 0.2em;
 

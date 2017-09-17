@@ -19,7 +19,7 @@
 
 .header__heading a:link,
 .header__heading a:visited {
-  color: var(--base_colortint);
+  color: var(--base00tint);
   text-decoration: none;
 }
 

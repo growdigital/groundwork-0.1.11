@@ -29,25 +29,11 @@
   --base3:  #fdf6e3;
 
   /* Accent colors */
-  --yellow:  #b58900;
-  --orange:  #cb4b16;
-  --red:     #dc322f;
-  --magenta: #d33682;
-  --violet:  #6c71c4;
-  --blue:    #268bd2;
-  --cyan:    #2aa198;
-  --green:   #859900;
-  /* Only using blue; other accent colors aren't 'rendered' out by PostCSS,
-     so no file size hit by including them here */
+  --blue:    #268bd2; /* Only using blue. See Solarized website for more */
 
   /* Base variables, adapated from SUIT CSS
      ======================================================================== */
 
-  --base_bg:         var(--base3); /* background */
-  --base_bgtint:     var(--base2); /* background tint */
-  --base_color:      var(--base00); /* text color */
-  --base_colortint:  var(--base01); /* text color tint */
-  --base_linkcolor:  var(--blue);
   --base_font:       sans-serif;
   --base_fontsize:   16px;
   --base_lineheight: 1.5;

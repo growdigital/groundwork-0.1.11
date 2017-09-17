@@ -12,10 +12,10 @@
     box-sizing: border-box;
 }
 
-/* Apply base variables */
+/* Apply variables */
 html {
-  background-color: var(--base_bg);
-  color:            var(--base_color);
+  background-color: var(--base3);
+  color:            var(--base00);
   font-family:      var(--base_font);
   font-size:        var(--base_fontsize);
   line-height:      var(--base_lineheight);
@@ -23,7 +23,7 @@ html {
 
 /* Links */
 a {
-  color: var(--base_linkcolor);
+  color: var(--blue);
   text-decoration: underline;
 }
 

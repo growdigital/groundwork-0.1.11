@@ -10,6 +10,8 @@ pageClass: html
   <h2>Pretty much every HTML element. Originally by <a href="http://mrmrs.cc/">Adam Morse</a></h1>
 </header>
 
+<p>This is a page where you can easily test all your default HTML tags</p>
+
 <header>
   <a href="#" title="Site title"><h1>Site title</h1></a>
   <nav>
