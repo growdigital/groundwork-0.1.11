@@ -15,21 +15,21 @@
   */
 
   /* Background tones (dark) */
-  --base03: #002b36;
-  --base02: #073642;
+  --dimmest:       #002b36; /* base03 */
+  --dim:           #073642; /* base02 */
 
   /* Content tones */
-  --base01: #586e75;
-  --base00: #657b83;
-  --base0:  #839496;
-  --base1:  #93a1a1;
+  --gray_dark:     #586e75; /* base01 */
+  --gray_mid:      #657b83; /* base00 */
+  --gray:          #839496; /* base0 */
+  --gray_bright: #93a1a1; /* base1 */
 
-  /* Background tones (light) */
-  --base2:  #eee8d5;
-  --base3:  #fdf6e3;
+  /* Background tones (bright) */
+  --bright:      #eee8d5; /* base2 */
+  --brightest:     #fdf6e3; /* base3 */
 
   /* Accent colors */
-  --blue:    #268bd2; /* Only using blue. See Solarized website for more */
+  --blue:          #268bd2; /* Only using blue. See Solarized website for more */
 
   /* Base variables, adapated from SUIT CSS
      ======================================================================== */

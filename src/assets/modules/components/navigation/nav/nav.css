@@ -7,7 +7,7 @@
  */
 
 .nav {
-  background-color: var(--base2);
+  background-color: var(--bright);
   padding: 0.7em;
 }
 
@@ -23,14 +23,14 @@
 .about .nav .about,
 .html .nav .html
 {
-  background-color: var(--base3);
+  background-color: var(--brightest);
 }
 
 .nav a,
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-  color: var(--base00tint);
+  color: var(--gray_midtint);
 }
 
 .nav a:hover {

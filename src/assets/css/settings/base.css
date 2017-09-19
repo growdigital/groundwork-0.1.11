@@ -14,8 +14,8 @@
 
 /* Apply variables */
 html {
-  background-color: var(--base3);
-  color:            var(--base00);
+  background-color: var(--brightest);
+  color:            var(--gray_mid);
   font-family:      var(--base_font);
   font-size:        var(--base_fontsize);
   line-height:      var(--base_lineheight);

@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .footer__social {
-  background-color: var(--base2);
+  background-color: var(--bright);
   padding: 1em;
 }
 
@@ -34,7 +34,7 @@
   text-align: center;
 }
 
-/* Lights links for the footer */
+/* brights links for the footer */
 
 
 
