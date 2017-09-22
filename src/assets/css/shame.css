@@ -13,8 +13,24 @@
  * https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#hack-namespaces-_
  */
 
-/* Use debug utility to quickly outline problematic elements */
-/*.u-debug {
+/**
+ * Use colors to quickly outline problematic elements:
+ */
+
+/*
+.red {
   outline: 1px solid red !important;
+}
+
+.blue {
+  outline: 1px solid blue !important;
+}
+
+.green {
+  outline: 1px solid green !important;
+}
+
+.bg {
+  background-color: yellow !important;
 }
 */
