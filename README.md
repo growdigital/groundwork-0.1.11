@@ -2,10 +2,11 @@
 
 [![Code Climate][climate-badge]][climate-url] [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Slack chat][slack-badge]][slack-url] [![Stories in Ready](https://badge.waffle.io/growdigital/groundwork.png?label=ready&title=Ready)](http://waffle.io/growdigital/groundwork)
 
-### Modular CSS Starter Kit. It rocks.
+### Metalsmith Modular CSS Starter Kit. It rocks.
 
 ![Groundwork logo](https://blank.groundwork.rocks/assets/images/logo.svg)
 
+* Uses [Metalsmith](http://www.metalsmith.io/) static site generator
 * Out-of-the-box Modular CSS website
 * Combines individual modular CSS files into one stylesheet
 * Vanilla HTML, CSS and JS

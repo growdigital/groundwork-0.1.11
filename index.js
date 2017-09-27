@@ -104,10 +104,6 @@ Metalsmith(__dirname)
   .use(markdown({
     gfm: true
   }))
-  .use(partials({
-    directory: 'partials',
-    pattern: /\.hbs$/
-  }))
   // Create RSS feed
   .use(feed({collection: 'posts'}))
   // Change your date format here
@@ -122,7 +118,8 @@ Metalsmith(__dirname)
   }))
   // I like Handlebars templating. You can use what you like.
   .use(templates({
-    engine: 'handlebars'
+    engine: 'handlebars',
+    partials: 'partials'
   }))
   // Move graphics assets out of modules and into /assets/images/ directory
   .use(move({
