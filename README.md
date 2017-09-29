@@ -2,7 +2,7 @@
 
 [![Code Climate][climate-badge]][climate-url] [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Slack chat][slack-badge]][slack-url] [![Stories in Ready](https://badge.waffle.io/growdigital/groundwork.png?label=ready&title=Ready)](http://waffle.io/growdigital/groundwork)
 
-### Metalsmith Modular CSS Starter Kit. It rocks.
+### Modular CSS & Metalsmith blog template. It rocks.
 
 ![Groundwork logo](https://blank.groundwork.rocks/assets/images/logo.svg)
 
