@@ -1,11 +1,11 @@
 ---
 layout: layout.hbs
-pageTitle: "Blank Groundwork: Modular CSS"
+pageTitle: "Blank Groundwork"
 pageClass: home
 
 ---
 
-# Blank Modular CSS Starter Kit
+# Modular CSS & Metalsmith blog template
 
 See [www.groundwork.rocks](https://www.groundwork.rocks) for instructions. 
 [Fork me on GitHub](https://github.com/growdigital/groundwork). 
