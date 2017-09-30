@@ -27,15 +27,8 @@ Metalsmith(__dirname)
   })
   .source('./src')
   .destination('./build')
-  // Only clean in dev. Set to false to preserve Fractal styleguide.
+  // Does fresh build every time. Can slow down on sites with lots of pages.
   .clean(true)
-  // Ignoring documentation and Fractal templates
-  .use(ignore([
-    'docs/*',
-    'assets/modules/**/**/*.hbs',
-    'assets/modules/**/**/**/*.hbs',
-    'assets/modules/**/**/**/**/*.hbs'
-  ]))
   // Concatenation: the order is important
   // Concat CSS
   .use(concat({

@@ -1,6 +1,6 @@
 {
   "name": "groundwork",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Blank Modular CSS Starter Kit using Metalsmith",
   "author": "Jake Rayson <contact@groundwork.rocks>",
   "license": [
@@ -9,7 +9,6 @@
   ],
   "private": true,
   "dependencies": {
-    "@frctl/fractal": "^1.1.6",
     "handlebars": "^4.0.10",
     "handlebars-layouts": "^3.1.4",
     "metalsmith": "^2.3.0",
@@ -25,7 +24,7 @@
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-movey": "0.0.7",
     "metalsmith-permalinks": "^0.5.0",
-    "metalsmith-postcss": "^4.0.1",
+    "metalsmith-postcss": "^4.1.1",
     "metalsmith-uglifyjs": "^0.2.3",
     "normalize.css": "^7.0.0",
     "postcss-cssnext": "^3.0.2"
@@ -39,8 +38,6 @@
     "start": "node index.js",
     "dev": "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'",
     "browser_sync": "browser-sync start --server build --browser='google chrome'",
-    "build": "npm start & fractal build",
-    "fractal": "fractal start",
-    "fractalbuild": "fractal build"
+    "build": "npm start"
   }
 }
