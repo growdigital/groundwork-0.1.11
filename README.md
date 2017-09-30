@@ -7,7 +7,7 @@
 ![Groundwork logo](https://blank.groundwork.rocks/assets/images/logo.svg)
 
 * Uses [Metalsmith](http://www.metalsmith.io/) static site generator
-* Out-of-the-box Modular CSS website
+* Out-of-the-box Modular CSS Metalsmith blog
 * Combines individual modular CSS files into one stylesheet
 * Vanilla HTML, CSS and JS
 * Easily modify with the [plugin](https://github.com/metalsmith/awesome-metalsmith/blob/master/PLUGINS.md) of your choice
@@ -19,7 +19,6 @@
 * [PostCSS-cssnext](http://cssnext.io/) plugin for using latest features in plain CSS
 * [Metalsmith](http://www.metalsmith.io/) build process, from `src` to `build`
 * [Handlebars](http://handlebarsjs.com/) for plain HTML templates
-* [Fractal](http://fractal.build/) for built-in styleguide
 * [nodemon](https://www.npmjs.com/package/nodemon) to watch for file changes 
 * [browser-sync](https://browsersync.io/) to automatically preview changes in browser
 
@@ -43,13 +42,7 @@ Start the build, watch and browsersync script:
 $ npm run dev 
 ```
 
-**Add CSS modules** in `src/assets/modules`, either `components`, `objects` or utilities. If you add a Handlebars template `.hbs` file, it will picked up by Fractal styleguide.
-
-To start the Fractal styleguide:
-
-```bash
-$ fractal start --sync
-```
+**Add CSS modules** in `src/assets/modules`, either `components`, `objects` or utilities.
 
 If you just want to build the site without previewing, run:
 
@@ -84,7 +77,6 @@ Documentation will be on the website [www.groundwork.rocks](https://www.groundwo
 * [Trumping](https://github.com/sonniesedge/inuitcss-guide/blob/master/trumps.md) utilities derived from [SUIT CSS utilities](https://github.com/suitcss/utils)
 * Syntax is [BEM](https://en.bem.info/), [modified](https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/) by [@CSSWizardry](https://twitter.com/csswizardry) 
 * [Shameful CSS](http://csswizardry.com/2013/04/shame-css/) by [@CSSWizardry](https://twitter.com/csswizardry)
-* Component library courtesy the _amazing_ [Fractal](http://fractal.build/) by [Danielle Huntrods](https://github.com/dkhuntrods) and [Mark Perkins](https://github.com/allmarkedup)
 * [Nicole Sullivan](https://twitter.com/stubbornella) for everything and the [media object](http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/)
 * Groundwork logo by [Jesse Bennett-Chamberlain](https://twitter.com/jessebc)
 
