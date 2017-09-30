@@ -104,8 +104,6 @@ Metalsmith(__dirname)
   .use(markdown({
     gfm: true
   }))
-  // Create RSS feed
-  .use(feed({collection: 'posts'}))
   // Change your date format here
   // Uses Moment.js http://momentjs.com/docs/#/displaying/
   .use(dateFormat({
@@ -120,6 +118,10 @@ Metalsmith(__dirname)
   .use(templates({
     engine: 'handlebars',
     partials: 'partials'
+  }))
+  // Create RSS feed
+  .use(feed({
+    collection: 'posts'
   }))
   // Move graphics assets out of modules and into /assets/images/ directory
   .use(move({
