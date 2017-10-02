@@ -5,7 +5,7 @@ pageClass: home
 
 ---
 
-# Modular CSS & Metalsmith blog template
+# Metalsmith blog & modular CSS template
 
 See [www.groundwork.rocks](https://www.groundwork.rocks) for instructions. 
 [Fork me on GitHub](https://github.com/growdigital/groundwork). 

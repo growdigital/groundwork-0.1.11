@@ -1,7 +1,7 @@
 {
   "name": "groundwork",
-  "version": "0.1.11",
-  "description": "Blank Modular CSS Starter Kit using Metalsmith",
+  "version": "0.1.12",
+  "description": "Metalsmith blog & modular CSS template. It rocks.",
   "author": "Jake Rayson <contact@groundwork.rocks>",
   "license": [
     "MIT ",
