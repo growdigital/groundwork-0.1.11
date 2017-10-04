@@ -27,6 +27,7 @@
     "metalsmith-postcss": "^4.1.1",
     "metalsmith-uglifyjs": "^0.2.3",
     "normalize.css": "^7.0.0",
+    "postcss": "^6.0.13",
     "postcss-cssnext": "^3.0.2"
   },
   "devDependencies": {
